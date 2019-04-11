@@ -1,31 +1,31 @@
 # Site wide configuration
 
-title: "Your Awesome Site"
-description: "A Coming Soon Template"
+title: "Prompt Conf 2019"
+description: "Prompt Conf 2019 - Coming Soon"
 #if you modify locale please have a look at _data/messages.yml too
 locale: en
 #for meta name="author" :
-author: 
+author: organizers@promptconf.com
 
 #Target date in UTC / GMT
 countdown:
   theme: red
-  year: 2020
-  month: 1
-  day: 1
-  hour: 0
+  year: 2019
+  month: 9
+  day: 28
+  hour: 9
   minute: 0
 
 # Site owner
 owner:
-  name:
-  email:
-  twitter:
+  name: Prompt Conf
+  email: organizers@promptconf.com
+  twitter: promptconf
   google-plus:
   instagramm:
   #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
   aboutlink:
-    url:
+    url: http://promptconf.com
     caption:
 
 
