@@ -1,23 +1,32 @@
-# Skinny Bones Jekyll Starter
+# YAX-Coming-soon-Jekyll-Template
+Free Bootstrap HTML5 CSS3 Responsive Coming soon  Jekyll template
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+Designed by : Ilya B.  
+url: https://www.behance.net/gallery/18421675/Free-Bootstrap-Psd-Coming-Soon-Template  
 
-![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
+Converted PSD to HTML/CSS by:  
+Morteza Aghili  
+bio: http://mortezaaghili.github.io/  
 
----
+Adpated to Jekyll by [yonojoy](https://github.com/yonojoy)
 
-## Notable Features
+## Usage
+Edit `index.md` to contain your message.
 
-* Jekyll 3.x and GitHub Pages compatible.
-* Stylesheet built using Sass.
-* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
-* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
-* And more.
+Edit `_config.yml` and add the following params:
 
-## More Jekyll Themes
+* `countdown` to contain the target date in GMT/UTC
+* `owner` to contain infos about the site owner.
 
-Check out my more popular Jekyll themes, available as Ruby gems and 100% GitHub Pages compatible.
+That's it.
 
-* [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)
-* [So Simple](https://github.com/mmistakes/so-simple-theme)
-* [Basically Basic](https://github.com/mmistakes/jekyll-theme-basically-basic)
+## Installation
+
+Requires [Jekyll](http://jekyllrb.com/) 3+. 
+
+If you are creating a new Jekyll site using Skinny Bones following these steps:
+
+1. Download and unzip.
+2. Run `bundle install` to install all dependencies 
+3. Update `_config.yml` and `index.md` as described above.
+

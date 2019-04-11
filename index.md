@@ -1,11 +1,8 @@
 ---
-layout: archive
+layout: home
 permalink: /
-title: "Latest Posts"
+title: "Your Awesome Site"
+excerpt: "A Coming Soon Template"
 ---
-
-<div class="tiles">
-{% for post in site.posts %}
-	{% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles -->
+# Website is coming soon
+Tell the users that your website is not active yet. Put the reason to subscribe for the notification in this paragraph. Tell them about their problems which you would like to solve. Don’t forget the final call to action.
