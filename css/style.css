@@ -5,12 +5,16 @@
     box-sizing: border-box;
 }
 /* General styles and layout */
+html {
+    height: 100%;
+}
 
 body {
     background: white;
     color: black;
     font-family: 'Open Sans', Arial, sans-serif;
     max-width: 100%;
+    height: 100%;
 }
 
 .container {
@@ -176,6 +180,9 @@ section.footer p a {
 }
 
 .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     z-index: 1;
     margin-top: 10%;
     padding-top: 5px;
