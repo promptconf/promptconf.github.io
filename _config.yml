@@ -6,6 +6,7 @@ description: "Prompt Conf 2019 - Coming Soon"
 locale: en
 #for meta name="author" :
 author: organizers@promptconf.com
+timezone: America/Chicago
 
 #Target date in UTC / GMT
 countdown:
@@ -21,8 +22,9 @@ owner:
   name: Prompt Conf
   email: organizers@promptconf.com
   twitter: promptconf
+  facebook: promptconf
   google-plus:
-  instagramm:
+  instagram: promptconfchi
   #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
   aboutlink:
     url: http://promptconf.com
