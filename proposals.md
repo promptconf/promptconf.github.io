@@ -1,6 +1,5 @@
 ---
 title: Call for Proposals
-layout: default
 ---
 
 # Call for Proposals
