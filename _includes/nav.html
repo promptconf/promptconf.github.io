@@ -1,5 +1,8 @@
 <nav>
-    <a href='/' {% if page.url == '/' %}class='nav--active'{% endif %}>Home</a>
-    <a href='/conduct.html' {% if page.url == '/conduct.html' %}class='nav--active'{% endif %}>Code of Conduct</a>
-    <a href='/proposals.html' {% if page.url == '/proposals.html' %}class='nav--active'{% endif %}>Call for Proposals</a>
+    {% for item in site.data.nav %}
+        <a href='{{ item.link }}'
+        {% if page.url == item.link %}class='nav--active'{% endif %}>
+            {{ item.name }}
+        </a>
+    {% endfor %}
 </nav>

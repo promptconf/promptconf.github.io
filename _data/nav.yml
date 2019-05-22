@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Code of Conduct
+  link: /conduct.html
+- name: Call for Proposals
+  link: /proposals.html
