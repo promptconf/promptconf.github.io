@@ -1,9 +1,6 @@
 ---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 layout: home
-permalink: /
-title: "Prompt Conf 2019"
-excerpt: "Coming Soon to Chicago"
 ---
-# Coming Soon to Chicago
-## Saturday, September 28, 2019
-Introducing Prompt Conf, a polyglot tech conference coming soon to Chicago. Stay tuned for CFPs and more info!
