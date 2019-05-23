@@ -24,31 +24,28 @@ function timer(milliseconds) {
     }, 1000)
 }
 
-function displayTimeLeft(seconds) {
-    const days = Math.floor(seconds / 86400);
+function displayTimeLeft(timeLeft) {
+    const days = Math.floor(timeLeft / 86400);
+    const remainderOfDays = timeLeft % 86400;
 
-    const remainderHours = seconds % 86400;
-    const hours = Math.floor(remainderHours / 3600)
+    const hours = Math.floor(remainderOfDays / 3600)
+    const remainderOfHours = remainderOfDays % 3600;
 
-    const remainderMinutes = remainderHours % 3600;
-    const minutes = Math.floor(remainderMinutes / 60);
+    const minutes = Math.floor(remainderOfHours / 60);
+    const remainderOfMinutes = remainderOfHours % 60;
 
-    const remainderSeconds = remainderMinutes % 60
-    const display = `Days: ${days} Hours: ${hours} Minutes: ${minutes} Seconds: ${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`
+    const seconds = Math.floor(remainderOfMinutes);
+
+    const display = `Days: ${days} Hours: ${hours} Minutes: ${minutes} Seconds: ${seconds < 10 ? '0' : ''}${seconds}`
 
     timerDisplay.textContent = display
 }
 
 
 function startTimer() {
-    
-    console.log('conf date: ', promptConfStart);
     const now = Date.now();
-    console.log('now: ', now)
-
-    const milliseconds = promptConfStart - now;
-    console.log('milliseconds: ', milliseconds)
-    timer(milliseconds)
+    const millisecondsToConf = promptConfStart - now;
+    timer(millisecondsToConf);
 }
 
 window.onload = startTimer();
