@@ -70,3 +70,19 @@ a.button {
 .sponsor__logo {
     max-width: 20em;
 }
+
+.social-icon-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    text-decoration: none;
+    margin: 0 20px;
+
+    i {
+        font-size: 2em;
+        color: black;
+    }
+}
