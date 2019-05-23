@@ -1,5 +1,6 @@
 ---
 title: Call for Proposals
+permalink: /proposals/
 ---
 
 # Call for Proposals
