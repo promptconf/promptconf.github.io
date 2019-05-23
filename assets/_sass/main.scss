@@ -37,9 +37,25 @@ nav {
 .button {
     padding: 0.5em;
     border-radius: 3px;
+    border: 0;
     background-color: lavender;
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.25rem;
+    cursor: pointer;
 }
+
+a.button {
+    &:visited,
+    &:hover,
+    &:active,
+    &:focus {
+        color: inherit;
+    }
+}
+
+
 
 .email__explain {
     font-style: italic;
