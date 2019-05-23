@@ -60,3 +60,13 @@ a.button {
 .email__explain {
     font-style: italic;
 }
+
+.sponsors__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor__logo {
+    max-width: 20em;
+}
