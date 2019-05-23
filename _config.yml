@@ -48,10 +48,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-  - scope:
-      path: "_pages"
-    values:
-      permalink: /:name/
 
 
 # Content Settings
