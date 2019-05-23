@@ -1,3 +1,18 @@
+// -----------
+//  Variables
+// -----------
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$promptpurple: #3f178c;
+
+// -----------
+//  Base Styles
+// -----------
+
+body {
+    font-family: Roboto;
+}
+
 .nav--active {
     color: green;
 }
@@ -11,6 +26,13 @@ nav {
     padding: 20px;
 }
 
+// -----------
+//  Page and Section Styles
+// -----------
+
+.section--home {
+    
+}
 
 .email__explain {
     font-style: italic;
