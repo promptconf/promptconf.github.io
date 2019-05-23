@@ -1,6 +1,14 @@
 - name: Home
   link: /
-- name: Code of Conduct
-  link: /conduct
+# - name: Register
+#   link: /404
 - name: Call for Proposals
   link: /proposals
+- name: Speakers
+  link: /#speakers
+- name: Emails
+  link: /#email
+# - name: FAQ
+#   link: /#faq
+- name: Code of Conduct
+  link: /conduct
