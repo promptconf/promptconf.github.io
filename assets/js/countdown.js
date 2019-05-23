@@ -1,26 +1,23 @@
 let countdown;
-const displayWrap = document.querySelector('.countdown__display');
-const timerDisplay = document.querySelector('.countdown__display__time-left');
+const timerDisplay = document.querySelector('.countdown__time-left');
 
-// const promptConfStart = new Date('May 22, 19 23:32:00');
-const promptConfStart = new Date('September 28, 19 10:00:00');
+const promptConfStart = new Date('September 28, 2019 10:00:00 GMT-05:00');
 
 function timer(milliseconds) {
     clearInterval(countdown)
 
-    // const now = Date.now();
-    const seconds = milliseconds * 1000;
+    let seconds = milliseconds / 1000;
 
     displayTimeLeft(seconds)
     
     countdown = setInterval(() => {
-        const secondsLeft = milliseconds / 1000;
-        if (secondsLeft < 0) {
+        if (seconds < 0) {
             clearInterval(countdown)
             timerDisplay.textContent = 'Now!';
             return
         }
-        displayTimeLeft(secondsLeft)
+        seconds--
+        displayTimeLeft(seconds)
     }, 1000)
 }
 
@@ -36,7 +33,7 @@ function displayTimeLeft(timeLeft) {
 
     const seconds = Math.floor(remainderOfMinutes);
 
-    const display = `Days: ${days} Hours: ${hours} Minutes: ${minutes} Seconds: ${seconds < 10 ? '0' : ''}${seconds}`
+    const display = `Days: ${days} Hours: ${hours} Minutes: ${minutes} Seconds: ${seconds}`
 
     timerDisplay.textContent = display
 }
