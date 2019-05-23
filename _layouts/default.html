@@ -13,8 +13,10 @@
 </head>
 
 <body>
+    {% include header.html %}
     {% include nav.html %}
     {{ content }}
+    {% include footer.html %}
 
     {% if jekyll.environment == 'production' %}
        {% include analytics.html %}
