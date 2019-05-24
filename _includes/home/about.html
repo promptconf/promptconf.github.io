@@ -1,0 +1,16 @@
+<h2>About Prompt Conf</h2>
+
+<p>Prompt Conf is a 501c3</p>
+<h3>Prompt Conf Organizers</h3>
+
+<div class='organizers-wrap'>
+    {% for organizer in site.organizers %}
+    <div class='organizer'>
+        <div class='organizer__headshot-wrap'>
+            <img class='organizer__headshot' src='assets/images/organizers/{{ organizer.image }}' alt='{{ organizer.name }}'>
+        </div>
+        <p><b>{{ organizer.name }}</b> | {{ organizer.company }}</p>
+        <p>{{ organizer.pronouns }}</p>
+    </div>
+    {% endfor %}
+</div>
