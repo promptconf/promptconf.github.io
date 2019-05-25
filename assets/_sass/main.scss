@@ -66,6 +66,10 @@ h1, h2, h3, h4, h5, h6, p, li {
     line-height: 1.5;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+}
+
 h1 {
     font-size: 1em * $typescale * $typescale * $typescale * $typescale * $typescale * $typescale;
     font-weight: $font-weight-light;
@@ -229,11 +233,34 @@ em {
 .organizer {
     width: 30%;
 }
+.keynote__wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.keynote-speaker {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: end;
+}
+
+.speaker__headshot__wrap {
+    img {
+        object-fit: contain;
+        width: 100%;
+    }
+}
+
+.speaker__name-title {
+    margin-left: 10px;
+}
 
 .organizer__headshot-wrap {
     width: 100%;
     max-height: 250px;
     overflow: hidden;
+    margin-bottom: 5px;
 }
 
 .organizer__headshot {
@@ -242,10 +269,11 @@ em {
 }
 
 .organizer__name-company {
-    margin-top: 5px;
+    margin-bottom: 0;
 }
 
-.organizer__name {
+.organizer__name,
+.speaker__name {
     border-right: 1px solid black;
     padding-right: 5px;
     margin-right: 5px;
