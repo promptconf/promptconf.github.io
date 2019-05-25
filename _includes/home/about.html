@@ -9,7 +9,7 @@
         <div class='organizer__headshot-wrap'>
             <img class='organizer__headshot' src='assets/images/organizers/{{ organizer.image }}' alt='{{ organizer.name }}'>
         </div>
-        <p><b>{{ organizer.name }}</b> | {{ organizer.company }}</p>
+        <p class='organizer__name-company'><span class='organizer__name'>{{ organizer.name }}</span>{{ organizer.company }}</p>
         <p>{{ organizer.pronouns }}</p>
     </div>
     {% endfor %}
