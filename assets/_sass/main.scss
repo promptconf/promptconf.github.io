@@ -230,6 +230,11 @@ em {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+.sponsors__row:last-of-type {
+    margin-bottom: 0;
 }
 
 .sponsor__logo {
