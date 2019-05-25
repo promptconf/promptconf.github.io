@@ -126,6 +126,17 @@ em {
 //  Page and Section Styles
 // -----------
 
+.header {
+    background-color: $promptpurple;
+    background-image: url(../images/chicago.jpg);
+    background-size: cover;
+    background-blend-mode: lighten; // =exclusion, =difference, *hard-light, lighten, =luminosity, screen, =soft-light
+}
+
+.header__logo {
+    width: 12rem;
+}
+
 .nav--active {
     color: green;
 }
