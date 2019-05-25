@@ -36,8 +36,12 @@ section {
 
 section,
 footer {
-    border: 1px solid black;
     padding: 20px;
+}
+
+a {
+    color: $promptpurple;
+    font-weight: $bold;
 }
 
 .button {
@@ -152,6 +156,26 @@ em {
 
 .nav__item--active {
     text-decoration: underline;
+}
+
+.conference-info__wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.conference-info__headline {
+    margin-bottom: 20px;
+}
+
+.conference-info__cta {
+    border: 1px solid $promptpurple;
+    padding: 20px;
+}
+
+.conference-info__countdown {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
 .email__explain {
