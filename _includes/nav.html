@@ -1,7 +1,11 @@
 <nav>
     {% for item in site.data.nav %}
         <a href='{{ item.link }}'
-        {% if page.url == item.link %}class='nav--active'{% endif %}>
+            class={% if page.url == item.link %}
+            'nav__item nav__item--active'
+            {% else %}
+            'nav__item'
+            {% endif %}>
             {{ item.name }}
         </a>
     {% endfor %}

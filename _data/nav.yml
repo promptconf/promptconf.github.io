@@ -3,14 +3,14 @@
 # - name: Register
 #   link: /404
 - name: Call for Proposals
-  link: /proposals
+  link: /proposals/
 - name: Speakers
   link: /#speakers
 - name: Emails
   link: /#email
 - name: Sponsorship
-  link: /sponsorship
+  link: /sponsorship/
 # - name: FAQ
 #   link: /#faq
 - name: Code of Conduct
-  link: /conduct
+  link: /conduct/

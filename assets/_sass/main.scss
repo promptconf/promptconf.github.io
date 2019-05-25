@@ -137,7 +137,11 @@ em {
     width: 12rem;
 }
 
-.nav--active {
+.nav__item {
+    color: white;
+}
+
+.nav__item--active {
     color: green;
 }
 
