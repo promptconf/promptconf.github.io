@@ -331,11 +331,22 @@ em {
 
 .footer {
     background-color: $promptpurple;
-    display: flex;
-    justify-content: space-between;
     color: white;
 
     p {
         line-height: 1;
+    }
+}
+
+.footer__copyright-social__wrap {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.footer__attribution {
+    font-size: .75em;
+
+    a {
+        color: white;
     }
 }
