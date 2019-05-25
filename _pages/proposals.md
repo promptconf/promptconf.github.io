@@ -5,7 +5,7 @@ permalink: /proposals/
 
 # Call for Proposals
 
-The inspiration  for our submission process came from the RubyConf process, and their CFP informed the structure and wording of ours! Thanks you RubyConf team. 
+*The inspiration  for our submission process came from the RubyConf process, and their CFP informed the structure and wording of ours! Thank you RubyConf team.*
 
 Thank you for your interest in speaking at **PromptConf**! The conference is **September 28** in Chicago.
 
@@ -28,9 +28,11 @@ We require all selected talks to comply wholly with our [Code of Conduct](conduc
 
 ## What’s the proposal process?
 
-Talks should be 10 minutes long.
+**Talks should be 10 minutes long.**
 
-Proposals can be submitted through **6/19**. We will accept talks on a rolling basis: the earlier you submit, the more likely you are to receive feedback on how to amend your proposal, which betters your ultimate odds of acceptance. We plan to have every proposal accepted, waitlisted, or declined by **7/10**.
+Proposals can be submitted through **6/19**. We will accept talks on a rolling basis: the earlier you submit, the more likely you are to receive feedback on how to amend your proposal, which betters your ultimate odds of acceptance. 
+
+We plan to have every proposal accepted, waitlisted, or declined by **7/10**.
 
 ### Are you a first time speaker? 
 
@@ -42,6 +44,7 @@ Proposals will go through two rounds of evaluation. The first-round review will 
 
 ## Speaker Benefits
 
-- Speaker mentoring
+- Feedback on your proposal when you submit early
+- Speaker mentoring for first time speakers
 
 [**Submit your Proposal**](/404)
