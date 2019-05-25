@@ -70,7 +70,7 @@ label {
 //  Typography
 // -----------
 
-h1, h2, h3, h4, h5, h6, p, li {
+h1, h2, h3, h4, h5, h6, p, li, dd {
     line-height: 1.5;
 }
 
@@ -197,17 +197,25 @@ em {
     border: 1px solid $promptpurple;
     padding: 20px;
     display: grid;
-    grid-template-rows: auto 45px;
+    grid-template-rows: auto max-content;
 }
 
 .conference-info__cta__content {
     margin-bottom: 20px;
 }
 
-.conference-info__cta__button {
+.conference-info__cta__button-wrap {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-content: space-around;
     align-items: center;
+
+    @media screen and (max-width: 55rem) {
+        .button + .button {
+            margin-top: 5px;
+        }
+    }
 }
 
 .conference-info__date-location {
@@ -276,18 +284,32 @@ em {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+
+    @media screen and (max-width: 50em) {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .keynote__wrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
+
+    @media screen and (max-width: 50em) {
+        display: block;
+    }
 }
 
 .keynote-speaker {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 20px auto;
+
+    @media screen and (max-width: 50em) {
+        &+ .keynote-speaker {
+            margin-top: 20px;
+        }
+    }
 }
 
 .speaker__headshot__wrap {
