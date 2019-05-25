@@ -14,10 +14,14 @@ $font-weight-bold: 900;
 // -----------
 //  Base Styles and Layout
 // -----------
+html, body {
+    height: 100%;
+}
 
 body {
     display: grid;
     grid-template-columns: [page-start] minmax(20px, auto) [content-start] minmax(auto, 1000px) [content-end] minmax(20px, auto) [page-end];
+    grid-template-rows: max-content auto max-content;
     font-family: Roboto;
     font-size: 18px;
 }
