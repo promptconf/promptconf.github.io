@@ -147,6 +147,11 @@ em {
     background-size: cover;
     background-blend-mode: lighten; // =exclusion, =difference, *hard-light, lighten, =luminosity, screen, =soft-light
     background-position-y: 85%;
+
+    @media screen and (max-width: 60rem) {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .header__logo {
@@ -157,6 +162,11 @@ em {
 .nav {
     display: flex;
     justify-content: space-around;
+
+    @media screen and (max-width: 60rem) {
+        flex-direction: column;
+        width: max-content;
+    }
 }
 
 .nav__item {
