@@ -105,7 +105,8 @@ p {
     margin-bottom: 20px;
 }
 
-p:last-child {
+p:last-child,
+p:last-of-type {
     margin-bottom: 0;
 }
 
@@ -314,6 +315,17 @@ em {
 
     i {
         font-size: 2em;
-        color: black;
+        color: white;
+    }
+}
+
+.footer {
+    background-color: $promptpurple;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+    p {
+        line-height: 1;
     }
 }
