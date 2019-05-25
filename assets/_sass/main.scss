@@ -8,7 +8,8 @@ $promptpurple: #3f178c;
 
 $typescale: 1.2;
 
-$bold: 900;
+$font-weight-light: 100;
+$font-weight-bold: 900;
 
 // -----------
 //  Base Styles and Layout
@@ -41,7 +42,7 @@ footer {
 
 a {
     color: $promptpurple;
-    font-weight: $bold;
+    font-weight: $font-weight-bold;
 }
 
 .button {
@@ -76,22 +77,26 @@ h1, h2, h3, h4, h5, h6, p, li {
 
 h1 {
     font-size: 1em * $typescale * $typescale * $typescale * $typescale * $typescale * $typescale;
-    font-weight: 100;
+    font-weight: $font-weight-light;
+    font-size: 2em;
 }
 
 h2 {
     font-size: 1em * $typescale * $typescale * $typescale * $typescale * $typescale;
-    font-weight: 100;
+    font-weight: $font-weight-light;
+    font-size: 2em;
 }
 
 h3 {
     font-size: 1em * $typescale * $typescale * $typescale * $typescale;
-    font-weight: 100;
+    font-weight: $font-weight-light;
+    font-size: 2em;
 }
 
 h4 {
     font-size: 1em * $typescale * $typescale * $typescale;
-    font-weight: 100;
+    font-weight: $font-weight-light;
+    font-size: 2em;
 }
 
 h5 {
@@ -115,7 +120,7 @@ ul li {
 }
 
 strong {
-    font-weight: $bold;
+    font-weight: $font-weight-bold;
 }
 
 em {
@@ -149,7 +154,7 @@ em {
     padding: 5px 10px;
     background-color: white;
     color: $promptpurple;
-    font-weight: $bold;
+    font-weight: $font-weight-bold;
     font-size: 2rem;
     text-decoration: none;
 }
@@ -161,6 +166,7 @@ em {
 .conference-info__wrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
     grid-column-gap: 20px;
 }
 
@@ -176,6 +182,22 @@ em {
 .conference-info__countdown {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countdown__item {
+    margin-right: 20px;
+}
+
+.countdown__label,
+.countdown__value {
+    font-weight: $font-weight-light;
+    font-size: 2em;
+}
+
+.countdown__label {
+    color: $promptpurple;
 }
 
 .email__explain {
@@ -221,7 +243,7 @@ em {
     border-right: 1px solid black;
     padding-right: 5px;
     margin-right: 5px;
-    font-weight: $bold;
+    font-weight: $font-weight-bold;
 }
 
 .social-icon-wrap {

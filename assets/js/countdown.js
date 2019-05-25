@@ -1,5 +1,8 @@
 let countdown;
-const timerDisplay = document.querySelector('.countdown__time-left');
+const timerDay = document.querySelector('.countdown__item--days .countdown__value');
+const timerHours = document.querySelector('.countdown__item--hours .countdown__value');
+const timerMinutes = document.querySelector('.countdown__item--minutes .countdown__value');
+const timerSeconds = document.querySelector('.countdown__item--seconds .countdown__value');
 
 const promptConfStart = new Date('September 28, 2019 10:00:00 GMT-05:00');
 
@@ -33,9 +36,10 @@ function displayTimeLeft(timeLeft) {
 
     const seconds = Math.floor(remainderOfMinutes);
 
-    const display = `Days: ${days} Hours: ${hours} Minutes: ${minutes} Seconds: ${seconds}`
-
-    timerDisplay.textContent = display
+    timerDay.textContent = days
+    timerHours.textContent = hours
+    timerMinutes.textContent = minutes
+    timerSeconds.textContent = `${seconds < 10 ? '0' : ''}${seconds}`
 }
 
 
