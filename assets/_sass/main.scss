@@ -182,6 +182,18 @@ em {
 .conference-info__cta {
     border: 1px solid $promptpurple;
     padding: 20px;
+    display: grid;
+    grid-template-rows: auto 45px;
+}
+
+.conference-info__cta__content {
+    margin-bottom: 20px;
+}
+
+.conference-info__cta__button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .conference-info__date-location {
@@ -205,11 +217,6 @@ em {
 
 .countdown__label {
     color: $promptpurple;
-}
-
-.cfp-button__wrap {
-    display: flex;
-    justify-content: space-around;
 }
 
 .home__email,
