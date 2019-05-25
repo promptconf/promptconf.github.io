@@ -175,12 +175,8 @@ em {
     grid-column-gap: 20px;
 }
 
-.conference-info__headline {
-    margin-bottom: 20px;
-
-    p {
-        font-size: 1em * $typescale;
-    }
+.conference-info__headline p {
+    font-weight: $font-weight-bold;
 }
 
 .conference-info__cta {
@@ -188,12 +184,13 @@ em {
     padding: 20px;
 }
 
-.conference-info__countdown {
+.conference-info__date-location {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.conference-info__date-location__details {
+    font-weight: $font-weight-bold;
 }
 
 .countdown__item {
@@ -221,7 +218,6 @@ em {
 
 .home__email p {
     margin-bottom: 20px;
-    font-size: 1em * $typescale;
 }
 
 .mc-field-group {
