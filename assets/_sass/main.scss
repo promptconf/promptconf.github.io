@@ -242,18 +242,26 @@ em {
 .keynote-speaker {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    align-items: end;
+    grid-template-rows: 20px auto;
 }
 
 .speaker__headshot__wrap {
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    border: 1px solid $promptpurple;
+    width: 100%;
+    height: 100%;
+
     img {
-        object-fit: contain;
+        object-fit: cover;
         width: 100%;
+        height: 100%;
     }
 }
 
 .speaker__name-title {
-    margin-left: 10px;
+    margin-left: 20px;
+    grid-row-start: 2;
 }
 
 .organizer__headshot-wrap {
