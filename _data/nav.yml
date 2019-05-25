@@ -1,13 +1,13 @@
-- name: Home
-  link: /
-# - name: Register
-#   link: /404
+# - name: Home
+#   link: /
+- name: Register
+  link: /#email
 - name: Call for Proposals
   link: /proposals/
-- name: Speakers
-  link: /#speakers
-- name: Emails
-  link: /#email
+# - name: Speakers
+#   link: /#speakers
+# - name: Emails
+#   link: /#email
 - name: Sponsorship
   link: /sponsorship/
 # - name: FAQ

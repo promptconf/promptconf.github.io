@@ -174,7 +174,7 @@ em {
     margin-bottom: 20px;
 
     p {
-        font-size: 1.25em;
+        font-size: 1em * $typescale;
     }
 }
 
@@ -216,6 +216,7 @@ em {
 
 .home__email p {
     margin-bottom: 20px;
+    font-size: 1em * $typescale;
 }
 
 .mc-field-group {
