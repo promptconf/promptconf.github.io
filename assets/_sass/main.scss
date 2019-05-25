@@ -11,11 +11,28 @@ $typescale: 1.2;
 $bold: 900;
 
 // -----------
-//  Base Styles
+//  Base Styles and Layout
 // -----------
 
 body {
+    display: grid;
+    grid-template-columns: [page-start] minmax(20px, auto) [content-start] minmax(auto, 1000px) [content-end] minmax(20px, auto) [page-end];
     font-family: Roboto;
+}
+
+header,
+footer {
+    grid-column: page-start / page-end;
+}
+
+.container {
+    grid-column: content-start / content-end;
+}
+
+header,
+nav, 
+section {
+    margin-bottom: 20px;
 }
 
 section,
@@ -23,13 +40,34 @@ header,
 footer,
 nav {
     border: 1px solid black;
-    margin: 20px;
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 20px;
+.button {
+    padding: 0.5em;
+    border-radius: 3px;
+    border: 0;
+    background-color: lavender;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.25rem;
+    cursor: pointer;
 }
+
+a.button {
+    &:visited,
+    &:hover,
+    &:active,
+    &:focus {
+        color: inherit;
+    }
+}
+
+
+// -----------
+//  Typography
+// -----------
 
 h1, h2, h3, h4, h5, h6, p, li {
     line-height: 1.5;
@@ -81,27 +119,6 @@ strong {
 
 em {
     font-style: italic;
-}
-
-.button {
-    padding: 0.5em;
-    border-radius: 3px;
-    border: 0;
-    background-color: lavender;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 1.25rem;
-    cursor: pointer;
-}
-
-a.button {
-    &:visited,
-    &:hover,
-    &:active,
-    &:focus {
-        color: inherit;
-    }
 }
 
 
