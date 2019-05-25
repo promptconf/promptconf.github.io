@@ -210,6 +210,18 @@ em {
     justify-content: space-around;
 }
 
+.home__email {
+    border: 1px solid $promptpurple;
+}
+
+.mc-field-group {
+    margin-bottom: 20px;
+}
+
+.input-group li {
+    list-style-type: none;
+}
+
 .email__explain {
     font-style: italic;
 }
