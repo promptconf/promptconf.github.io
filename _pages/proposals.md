@@ -34,10 +34,14 @@ Proposals can be submitted through **6/19**. We will accept talks on a rolling b
 
 ### Are you a first time speaker? 
 
-FANTASTIC! We’d love to have you. We’re happy to provide feedback on your proposal through the submission deadline, and if we accept your talk, we’ll provide you with a speaker mentor (See “Speaker Benefits” for more information on this).
+FANTASTIC! We’d love to have you. We’re happy to provide feedback on your proposal through the submission deadline, and if we accept your talk, we’ll provide you with a speaker mentor (See [“Speaker Benefits”](#speaker-benefits) for more information on this).
 
 ## About the Review Process
 
 Proposals will go through two rounds of evaluation. The first-round review will be **anonymized** — reviewers do not have access to your information, only what is in your proposal, to keep basic biases out of our calculations. **Please respect this process by keeping your biographical information out of the proposal itself.**
+
+## Speaker Benefits
+
+- Speaker mentoring
 
 [**Submit your Proposal**](/404)
