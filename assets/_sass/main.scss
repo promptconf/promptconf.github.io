@@ -49,21 +49,12 @@ a {
     padding: 0.5em;
     border-radius: 3px;
     border: 0;
-    background-color: lavender;
+    background-color: $promptpurple;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 1.25rem;
     cursor: pointer;
-}
-
-a.button {
-    &:visited,
-    &:hover,
-    &:active,
-    &:focus {
-        color: inherit;
-    }
 }
 
 
@@ -111,6 +102,11 @@ h6 {
   
 p {
     font-size: 1em;
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
 }
 
 ul li {
@@ -172,6 +168,10 @@ em {
 
 .conference-info__headline {
     margin-bottom: 20px;
+
+    p {
+        font-size: 1.25em;
+    }
 }
 
 .conference-info__cta {
@@ -186,6 +186,7 @@ em {
     justify-content: center;
     align-items: center;
 }
+
 .countdown__item {
     margin-right: 20px;
 }
@@ -198,6 +199,11 @@ em {
 
 .countdown__label {
     color: $promptpurple;
+}
+
+.cfp-button__wrap {
+    display: flex;
+    justify-content: space-around;
 }
 
 .email__explain {
