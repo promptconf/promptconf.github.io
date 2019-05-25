@@ -19,6 +19,7 @@ We want to hear about the discovery you’ve made that you cannot wait to tell a
 
 - Tell us why you think cypher is the query language of the future. 
 - Take us through the dramatic and intriguing story of Android’s nullColumnHack.
+- Talk about how CSS Grid changed your life.
 - Tell us about your spike on using Swift extensions to replace to the Massive View Controller once - and for all. 
 
 We’ll assemble about 150 equally excitable colleagues who can’t wait to hear your amazing story.
