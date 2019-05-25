@@ -37,9 +37,8 @@ section {
     margin-bottom: 40px;
 }
 
-section,
-footer {
-    padding: 20px;
+section {
+    padding: 0 20px;
 }
 
 a {
@@ -138,6 +137,7 @@ em {
 // -----------
 
 .header {
+    padding: 20px;
     background-color: $promptpurple;
     background-image: url(../images/chicago.jpg);
     background-size: cover;
@@ -222,6 +222,7 @@ em {
 .home__email,
 .home__faq {
     border: 1px solid $promptpurple;
+    padding: 20px;
 }
 
 .home__email p {
@@ -348,6 +349,7 @@ em {
 }
 
 .footer {
+    padding: 20px;
     background-color: $promptpurple;
     color: white;
 
