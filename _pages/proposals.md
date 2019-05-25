@@ -9,7 +9,7 @@ The inspiration  for our submission process came from the RubyConf process, and 
 
 Thank you for your interest in speaking at **PromptConf**! The conference is **September 28** in Chicago.
 
-If you have questions about any of these guidelines please first read our FAQ, if you find you still a question you can reach us at [program@promptconf.com](program@promptconf.com).
+If you have questions about any of these guidelines please first [read our FAQ]({{ site.baseurl }}{{ '/#faq' }}). If you find you still have a question you can reach us at [program@promptconf.com](mailto:program@promptconf.com).
 
 ## What should my talk be about?
 
@@ -24,7 +24,7 @@ We want to hear about the discovery you’ve made that you cannot wait to tell a
 
 We’ll assemble about 150 equally excitable colleagues who can’t wait to hear your amazing story.
 
-We require all selected talks to comply wholly with our [Code of Conduct](conduct.html). If you have any questions about the suitability of your talk, email us at [program@promptconf.com](program@promptconf.com).
+We require all selected talks to comply wholly with our [Code of Conduct](conduct.html). If you have any questions about the suitability of your talk, email us at [program@promptconf.com](mailto:program@promptconf.com).
 
 ## What’s the proposal process?
 
@@ -32,7 +32,9 @@ Talks should be 10 minutes long.
 
 Proposals can be submitted through **6/19**. We will accept talks on a rolling basis: the earlier you submit, the more likely you are to receive feedback on how to amend your proposal, which betters your ultimate odds of acceptance. We plan to have every proposal accepted, waitlisted, or declined by **7/10**.
 
-Are you a first time speaker? FANTASTIC! We’d love to have you. We’re happy to provide feedback on your proposal through the submission deadline, and if we accept your talk, we’ll provide you with a speaker mentor (See “Speaker Benefits” for more information on this).
+### Are you a first time speaker? 
+
+FANTASTIC! We’d love to have you. We’re happy to provide feedback on your proposal through the submission deadline, and if we accept your talk, we’ll provide you with a speaker mentor (See “Speaker Benefits” for more information on this).
 
 ## About the Review Process
 
