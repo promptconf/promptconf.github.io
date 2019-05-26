@@ -70,7 +70,7 @@ label {
 //  Typography
 // -----------
 
-h1, h2, h3, h4, h5, h6, p, li, dd {
+h1, h2, h3, h4, h5, h6, p, li, dt, dd {
     line-height: 1.5;
 }
 
@@ -187,6 +187,10 @@ em {
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 20px;
     grid-column-gap: 20px;
+
+    @media screen and (max-width: 40em) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .conference-info__headline p {
@@ -216,11 +220,6 @@ em {
             margin-top: 5px;
         }
     }
-}
-
-.conference-info__date-location {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
 }
 
 .conference-info__date-location__details {
@@ -276,7 +275,11 @@ em {
 }
 
 .sponsor__logo {
-    max-width: 20em;
+    max-width: 18em;
+
+    @media screen and (max-width: 30em) {
+        max-width: 75vw;
+    }
 }
 
 .organizers-wrap {
