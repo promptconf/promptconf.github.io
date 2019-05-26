@@ -6,7 +6,7 @@
 
 $promptpurple: #3f178c;
 
-$typescale: 1.2;
+$typescale: 1.16;
 
 $font-weight-light: 100;
 $font-weight-bold: 900;
@@ -202,6 +202,10 @@ em {
     padding: 20px;
     display: grid;
     grid-template-rows: auto max-content;
+}
+
+.conference-info__cta__heading {
+    font-size: 1em * $typescale * $typescale * $typescale * $typescale;
 }
 
 .conference-info__cta__content {
