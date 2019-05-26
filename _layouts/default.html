@@ -25,7 +25,10 @@
        {% include utilities/analytics.html %}
     {% endif %}
 
-    <script src={{ site.baseurl }}{{ '/assets/js/countdown.js' }}></script>
+    {% if page.url == '/' %}
+        <script src={{ site.baseurl }}{{ '/assets/js/countdown.js' }}></script>
+    {% endif %}
+
     {% include utilities/json-ld.html %}
 
 </body>
