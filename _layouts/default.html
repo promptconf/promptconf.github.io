@@ -22,8 +22,12 @@
     {% include footer.html %}
 
     {% if jekyll.environment == 'production' %}
-       {% include analytics.html %}
+       {% include utilities/analytics.html %}
     {% endif %}
+
+    <script src={{ site.baseurl }}{{ '/assets/js/countdown.js' }}></script>
+    {% include utilities/json-ld.html %}
+
 </body>
 
 </html>
