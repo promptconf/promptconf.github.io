@@ -55,10 +55,11 @@ a {
     border-radius: 3px;
     border: 0;
     background-color: $promptpurple;
-    text-decoration: none;
     color: white;
     font-weight: bold;
     font-size: 1.25rem;
+    text-decoration: none;
+    text-transform: capitalize;
     cursor: pointer;
 }
 
