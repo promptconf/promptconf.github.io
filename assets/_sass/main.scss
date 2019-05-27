@@ -214,12 +214,13 @@ em {
 
 .conference-info__cta__button-wrap {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
     align-items: center;
 
     @media screen and (max-width: 55rem) {
+        flex-direction: column;
+
         .button + .button {
             margin-top: 5px;
         }
