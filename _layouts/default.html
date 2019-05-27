@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    {% if jekyll.environment == 'production' %}
+        {% include utilities/gtm-head.html %}
+    {% endif %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -17,13 +20,13 @@
 </head>
 
 <body>
+    {% if jekyll.environment == 'production' %}
+        {% include utilities/gtm-body.html %}
+    {% endif %}
+
     {% include header.html %}
     <main class='container'>{{ content }}</main>
     {% include footer.html %}
-
-    {% if jekyll.environment == 'production' %}
-       {% include utilities/analytics.html %}
-    {% endif %}
 
     {% if page.url == '/' %}
         <script src={{ site.baseurl }}{{ '/assets/js/countdown.js' }}></script>
