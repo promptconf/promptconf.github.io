@@ -19,6 +19,7 @@ html, body {
 }
 
 body {
+    box-sizing: border-box;
     display: grid;
     grid-template-columns: [page-start] minmax(20px, auto) [content-start] minmax(auto, 1000px) [content-end] minmax(20px, auto) [page-end];
     grid-template-rows: max-content auto max-content;
