@@ -66,9 +66,15 @@ a {
     color: white;
     font-weight: bold;
     font-size: 1.25rem;
+    font-family: Roboto;
     text-decoration: none;
     text-transform: capitalize;
     cursor: pointer;
+}
+
+input[type='submit'],
+button {
+    -webkit-appearance: button;
 }
 
 label {
