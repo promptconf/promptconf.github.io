@@ -260,13 +260,23 @@ em {
     margin-bottom: 20px;
 }
 
-.input-group li {
+.home__email li {
     list-style-type: none;
+}
+
+.home__email [type="checkbox"] {
+    margin-right: 10px;
 }
 
 .email__explain {
     font-style: italic;
     font-weight: normal;
+}
+
+.email__submit-wrap {
+    @media screen and (max-width: 27em) {
+        text-align: center;
+    }
 }
 
 // MailChimp form submission confirmation
