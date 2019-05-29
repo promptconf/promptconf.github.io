@@ -44,6 +44,8 @@ function displayTimeLeft(timeLeft) {
 
 
 function startTimer() {
+    if (!timerDay) return;
+
     const now = Date.now();
     const millisecondsToConf = promptConfStart - now;
     timer(millisecondsToConf);
