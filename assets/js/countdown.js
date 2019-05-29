@@ -4,6 +4,11 @@ const timerHours = document.querySelector('.countdown__item--hours .countdown__v
 const timerMinutes = document.querySelector('.countdown__item--minutes .countdown__value');
 const timerSeconds = document.querySelector('.countdown__item--seconds .countdown__value');
 
+const textDay = document.querySelector('.countdown__item--days .countdown__label');
+const textHours = document.querySelector('.countdown__item--hours .countdown__label');
+const textMinutes = document.querySelector('.countdown__item--minutes .countdown__label');
+const textSeconds = document.querySelector('.countdown__item--seconds .countdown__label');
+
 const promptConfStart = new Date('September 28, 2019 10:00:00 GMT-05:00');
 
 function timer(milliseconds) {
@@ -36,10 +41,15 @@ function displayTimeLeft(timeLeft) {
 
     const seconds = Math.floor(remainderOfMinutes);
 
-    timerDay.textContent = days
-    timerHours.textContent = hours
-    timerMinutes.textContent = minutes
-    timerSeconds.textContent = `${seconds < 10 ? '0' : ''}${seconds}`
+    textDay.textContent = 'D: ';
+    textHours.textContent = 'H: ';
+    textMinutes.textContent = 'M: ';
+    textSeconds.textContent = 'S: ';
+
+    timerDay.textContent = days;
+    timerHours.textContent = hours;
+    timerMinutes.textContent = minutes;
+    timerSeconds.textContent = `${seconds < 10 ? '0' : ''}${seconds}`;
 }
 
 
