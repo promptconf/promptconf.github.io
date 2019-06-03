@@ -30,7 +30,7 @@ We require all selected talks to comply wholly with our [Code of Conduct](conduc
 
 **Talks should be 10 minutes long.**
 
-Proposals can be submitted through **6/19**. We will accept talks on a rolling basis: the earlier you submit, the more likely you are to receive feedback on how to amend your proposal, which betters your ultimate odds of acceptance. 
+Proposals can be submitted through **6/30**. We will accept talks on a rolling basis: the earlier you submit, the more likely you are to receive feedback on how to amend your proposal, which betters your ultimate odds of acceptance. 
 
 We plan to have every proposal accepted, waitlisted, or declined by **7/10**.
 
