@@ -42,4 +42,6 @@ Supporting Prompt Conf allows you direct exposure to a community-focused, inclus
 - Mention on website
 - Acknowledgement at the conference
 
-**Interested in sponsoring? Contact [organizers@promptconf.com](mailto:organizers@promptconf.com)!**
+**Interested in sponsoring? Contact [organizers@promptconf.com](mailto:organizers@promptconf.com?subject=Prompt%20Conf%20Sponsorship)!**
+
+<a class='button gtm-cta' href='mailto:organizers@promptconf.com?subject=Prompt%20Conf%20Sponsorship' subject='Prompt Conf Sponsorship'>Sponsor Prompt Conf</a>
