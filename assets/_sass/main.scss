@@ -253,6 +253,16 @@ em {
     font-weight: $font-weight-bold;
 }
 
+.conference-info__countdown {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+
+    @media screen and (max-width: 58rem) {
+        grid-template-columns: repeat(2, max-content);
+        grid-template-rows: repeat(2, max-content);
+    }
+}
+
 .countdown__item {
     margin-right: $space-standard;
 }
