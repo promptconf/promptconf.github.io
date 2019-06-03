@@ -47,4 +47,4 @@ Proposals will go through two rounds of evaluation. The first-round review will 
 - Feedback on your proposal when you submit early
 - Speaker mentoring for first time speakers
 
-<a class='button gtm-cta' href='/404'>Submit Your Talk</a>
+<a class='button gtm-cta' href='https://forms.gle/EkWXMNNi8ZVZuUc47' target='_blank'>Submit Your Talk</a>
