@@ -1,0 +1,496 @@
+// -----------
+//  Variables
+// -----------
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900&display=swap');
+
+
+$promptpurple: #3f178c;
+
+$typescale: 1.16;
+
+$font-weight-light: 100;
+$font-weight-bold: 900;
+
+$space-standard: 20px;
+$space-tiny: $space-standard/4;
+$space-small: $space-standard/2;
+$space-large: $space-standard * 2;
+
+$border-standard: 1px solid $promptpurple;
+
+// -----------
+//  Base Styles and Layout
+// -----------
+html, body {
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: [page-start] minmax($space-standard, auto) [content-start] minmax(auto, 65rem) [content-end] minmax($space-standard, auto) [page-end];
+    grid-template-rows: max-content auto max-content;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+header,
+footer {
+    grid-column: page-start / page-end;
+}
+
+.container {
+    grid-column: content-start / content-end;
+    margin-bottom: $space-large;
+}
+
+header,
+section {
+    margin-bottom: $space-large;
+}
+
+section {
+    padding: 0 $space-standard;
+}
+
+a {
+    color: $promptpurple;
+    font-weight: $font-weight-bold;
+}
+
+.button {
+    padding: 0.5em;
+    border-radius: 3px;
+    border: 0;
+    background-color: $promptpurple;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    font-family: Roboto;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+input[type='submit'],
+button {
+    -webkit-appearance: button;
+}
+
+label {
+    font-weight: $font-weight-bold;
+}
+
+// -----------
+//  Typography
+// -----------
+
+h1, h2, h3, h4, h5, h6, p, li, dt, dd {
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: $space-small;
+}
+
+h1 {
+    font-size: 1em * $typescale * $typescale * $typescale * $typescale * $typescale * $typescale;
+    font-weight: $font-weight-light;
+}
+
+h2 {
+    font-size: 1em * $typescale * $typescale * $typescale * $typescale * $typescale;
+    font-weight: $font-weight-light;
+}
+
+h3 {
+    font-size: 1em * $typescale * $typescale * $typescale * $typescale;
+    font-weight: $font-weight-light;
+}
+
+h4 {
+    font-size: 1em * $typescale * $typescale * $typescale;
+    font-weight: $font-weight-light;
+}
+
+h5 {
+    font-size: 1em * $typescale * $typescale;
+    font-weight: 900;
+}
+
+h6 {
+    font-size: 1em * $typescale;
+    font-weight: 900;
+}
+  
+p {
+    font-size: 1em;
+    margin-bottom: $space-standard;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-bottom: $space-standard;
+}
+
+ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: $space-small;
+}
+
+strong {
+    font-weight: $font-weight-bold;
+}
+
+em {
+    font-style: italic;
+}
+
+
+// -----------
+//  Page and Section Styles
+// -----------
+
+.header {
+    padding: $space-standard;
+    background-color: $promptpurple;
+    background-image: url(../images/header__chicago_large.jpg);
+    background-size: cover;
+    background-blend-mode: lighten; // =exclusion, =difference, *hard-light, lighten, =luminosity, screen, =soft-light
+    background-position-y: 85%;
+
+    @media screen and (max-width: 60rem) {
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url(../images/header__chicago_medium.jpg);
+        background-position-y: 15%;
+    }
+
+    @media screen and (max-width: 33rem) {
+        background-image: url(../images/header__chicago_small.jpg);
+        background-position-x: right;
+    }
+}
+
+.header__logo {
+    width: 12rem;
+    margin: 0 $space-standard $space-standard 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+
+    @media screen and (max-width: 60rem) {
+        flex-direction: column;
+        width: max-content;
+    }
+}
+
+.nav__item {
+    padding: .25rem .5rem;
+    background-color: white;
+    color: $promptpurple;
+    font-weight: $font-weight-bold;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav__item--active {
+    text-decoration: underline;
+}
+
+.conference-info__wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: $space-standard;
+    grid-column-gap: $space-standard;
+
+    @media screen and (max-width: 40em) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.conference-info__headline p {
+    font-weight: $font-weight-bold;
+}
+
+.conference-info__cta {
+    border: $border-standard;
+    padding: $space-standard;
+    display: grid;
+    grid-template-rows: auto max-content;
+}
+
+.conference-info__cta__heading {
+    font-size: 1em * $typescale * $typescale * $typescale * $typescale;
+}
+
+.conference-info__cta__content {
+    margin-bottom: $space-standard;
+}
+
+.conference-info__cta__button-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+
+    @media screen and (max-width: 55rem) {
+        flex-direction: column;
+
+        .button + .button {
+            margin-top: $space-tiny;
+        }
+    }
+}
+
+.conference-info__date-location__details {
+    font-weight: $font-weight-bold;
+}
+
+.conference-info__countdown {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+
+    @media screen and (max-width: 58rem) {
+        grid-template-columns: repeat(2, max-content);
+        grid-template-rows: repeat(2, max-content);
+    }
+}
+
+.countdown__item {
+    margin-right: $space-standard;
+}
+
+.countdown__label,
+.countdown__value {
+    font-weight: $font-weight-light;
+    font-size: 2em;
+}
+
+.countdown__label {
+    color: $promptpurple;
+}
+
+.home__email,
+.home__faq {
+    border: $border-standard;
+    padding: $space-standard;
+}
+
+.home__email p {
+    margin-bottom: $space-standard;
+}
+
+.mc-field-group {
+    margin-bottom: $space-standard;
+}
+
+.home__email li {
+    list-style-type: none;
+}
+
+.home__email [type='checkbox'] {
+    margin-right: $space-small;
+}
+
+.email__explain {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.email__submit-wrap {
+    @media screen and (max-width: 27em) {
+        text-align: center;
+    }
+}
+
+// MailChimp form submission confirmation
+.response {
+    margin-bottom: $space-standard;
+}
+
+.sponsors__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: $space-standard;
+}
+
+.sponsors__row:last-of-type {
+    margin-bottom: 0;
+}
+
+.sponsor__block {
+    text-align: center;
+}
+
+.sponsor__logo {
+    max-width: 18em;
+
+    @media screen and (max-width: 30em) {
+        max-width: 75vw;
+    }
+}
+
+.organizers-wrap {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: $space-standard;
+    grid-row-gap: $space-standard;
+    justify-content: center;
+    justify-items: center;
+
+    @media screen and (max-width: 67rem) {
+        grid-template-columns: repeat(3, 10rem);
+    }
+
+    @media screen and (max-width: 50em) {
+        grid-template-columns: repeat(2, 9rem);
+    }
+}
+
+.keynote__wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: $space-standard;
+
+    @media screen and (max-width: 50em) {
+        display: block;
+    }
+}
+
+.keynote-speaker {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: $space-standard auto;
+
+    @media screen and (max-width: 50em) {
+        &+ .keynote-speaker {
+            margin-top: $space-standard;
+        }
+    }
+}
+
+.speaker__headshot__wrap {
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    border: $border-standard;
+    width: 100%;
+    height: 100%;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.speaker__name-title {
+    margin-left: $space-standard;
+    grid-row-start: 2;
+}
+
+.organizer__headshot-wrap {
+    width: 100%;
+    height: 10rem;
+    margin-bottom: $space-tiny;
+    border: $border-standard;
+
+    @media screen and (max-width: 50em) {
+        height: 9rem;
+    }
+}
+
+.organizer__headshot {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.organizer__name-company {
+    margin-bottom: 0;
+}
+
+.organizer__name,
+.speaker__name {
+    border-right: 1px solid black;
+    padding-right: $space-tiny;
+    margin-right: $space-tiny;
+    font-weight: $font-weight-bold;
+}
+
+.faq__list {
+    dt {
+        font-weight: $font-weight-bold;
+        margin-bottom: $space-small;
+    }
+    dd {
+
+    }
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto max-content;
+    grid-template-rows: auto max-content;
+    padding: $space-standard;
+    background-color: $promptpurple;
+    color: white;
+
+    a {
+        color: white;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    @media screen and (max-width: 50rem) {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, max-content);
+        grid-row-gap: $space-standard;
+    }
+}
+
+.footer__copyright {
+    line-height: 1;
+}
+
+.footer__social-icon-wrap {
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    a + a {
+        margin-top: $space-small;
+    }
+}
+
+.footer__social-icon {
+    display: grid;
+    grid-template-columns: 2em auto;
+    text-decoration: none;
+
+    i {
+        margin-right: $space-tiny;
+        font-size: 1.5em;
+        justify-self: center;
+    }
+}
+
+.footer__social-icon span {
+    line-height: 0;
+    align-self: center;
+}
+
+.footer__attribution {
+    font-size: .75em;
+}

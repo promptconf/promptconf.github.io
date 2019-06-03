@@ -1,0 +1,25 @@
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "location": {
+        "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Chicago",
+                "addressRegion": "IL",
+                "postalCode": "60602",
+                "streetAddress": "1 N Dearborn St"
+            },
+        "name": "ActiveCampaign"
+    },
+    "name": "{{ site.title }}",
+    "description": "{{ site.description }}",
+    "startDate": "{{ site.eventStartDate }}",
+    "endDate": "{{ site.eventStartDate }}",
+    "image": "{{ site.url }}{{ '/assets/images/prompt_conf_sq.png' }}"
+}
+</script>
+
+<!-- https://search.google.com/structured-data/testing-tool -->
+<!-- consider adding offers (tickets) and performers (keynotes?) -->
