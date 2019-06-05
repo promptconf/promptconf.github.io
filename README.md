@@ -10,3 +10,6 @@ To automatically track call to action links
 add the class `gtm-cta`
 
 To track clicks to our social media add the class `gtm-social`
+
+Netlify auto deploys PRs: 
+https://deploy-preview-[PR#]--prompt-conf-dev.netlify.com/
