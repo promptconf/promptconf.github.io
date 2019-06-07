@@ -25,7 +25,7 @@ We want to hear about the discovery you’ve made that you cannot wait to tell a
 
 We’ll assemble about 150 equally excitable colleagues who can’t wait to hear your amazing story.
 
-We require all selected talks to comply wholly with our [Code of Conduct](conduct.html). If you have any questions about the suitability of your talk, email us at [program@promptconf.com](mailto:program@promptconf.com).
+We require all selected talks to comply wholly with our [Code of Conduct]({% link _pages/conduct.md %}). If you have any questions about the suitability of your talk, email us at [program@promptconf.com](mailto:program@promptconf.com).
 
 ## What’s the proposal process?
 
