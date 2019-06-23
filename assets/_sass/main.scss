@@ -285,6 +285,10 @@ em {
 
 .email__checkbox-wrap {
     @include checkbox-wrap;
+
+    label {
+        font-weight: normal;
+    }
 }
 
 .email__submit-wrap {
