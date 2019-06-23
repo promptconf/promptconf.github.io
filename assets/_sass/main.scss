@@ -127,6 +127,8 @@ p {
     margin-bottom: $space-standard;
 }
 
+$font-size-small: 1em / $typescale;
+
 p:last-child {
     margin-bottom: 0;
 }
@@ -233,16 +235,21 @@ em {
     margin-bottom: $space-standard;
 }
 
+.conference-info__cta__content--small {
+    font-size: $font-size-small;
+    flex-basis: calc(50% - #{$space-tiny});
+}
+
 .conference-info__cta__button-wrap {
     display: flex;
     justify-content: space-around;
     align-content: space-around;
     align-items: center;
 
-    @media screen and (max-width: 55rem) {
+    @media screen and (max-width: 65rem) {
         flex-direction: column;
 
-        .button + .button {
+        .button + * {
             margin-top: $space-tiny;
         }
     }
