@@ -1,15 +1,14 @@
 // -----------
 //  Variables
 // -----------
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900&display=swap');
-
+@import url('https://rsms.me/inter/inter.css');
 
 $promptpurple: #3f178c;
 
 $typescale: 1.16;
 
 $font-weight-light: 100;
-$font-weight-bold: 900;
+$font-weight-bold: 700;
 
 $space-standard: 20px;
 $space-tiny: $space-standard/4;
@@ -30,7 +29,7 @@ body {
     display: grid;
     grid-template-columns: [page-start] minmax($space-standard, auto) [content-start] minmax(auto, 65rem) [content-end] minmax($space-standard, auto) [page-end];
     grid-template-rows: max-content auto max-content;
-    font-family: Roboto;
+    font-family: 'Inter';
     font-size: 18px;
 }
 
