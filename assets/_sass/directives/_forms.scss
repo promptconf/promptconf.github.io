@@ -1,0 +1,53 @@
+$checkbox-size: 1em;
+
+// Large, accessible checkboxes: https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3
+.email__checkbox-wrap {
+
+    input[type='checkbox'] {
+        opacity: 0;
+    }
+
+    input[type='checkbox'] + label::after {
+        content: none;
+    }
+
+    input[type='checkbox']:checked + label::after {
+        content: '';
+    }
+
+    input[type='checkbox']:focus + label::before {
+        outline: rgb(59, 153, 252) auto 5px;
+    }
+
+    label {
+        position: relative;
+        padding-left: calc(#{$checkbox-size} + #{$space-small});
+    }
+
+    label::before,
+    label::after {
+        position: absolute;
+    }
+
+    label::before { // checkbox
+        content: '';
+        display: inline-block;
+        height: $checkbox-size;
+        width: $checkbox-size;
+        border: 1px solid;
+        top: 3px;
+        left: 0;
+    }
+
+    label::after { // checkmark
+        content: '';
+        display: inline-block;
+        height: 6px;
+        width: 9px;
+        border-left: 2px solid;
+        border-bottom: 2px solid;
+        transform: rotate(-45deg);
+        left: 4px;
+        top: 7px;
+    }
+}
