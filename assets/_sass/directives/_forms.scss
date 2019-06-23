@@ -3,6 +3,10 @@ $checkbox-size: 1em;
 $form-field-border: 2px solid $promptpurple;
 $form-field-border-radius: 3px;
 
+label {
+    font-weight: $font-weight-bold;
+}
+
 @mixin textbox {
     height: 2em;
     border: $form-field-border;
