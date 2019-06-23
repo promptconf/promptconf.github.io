@@ -11,11 +11,16 @@ $form-field-border-radius: 3px;
 
 // Large, accessible checkboxes: https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3
 @mixin checkbox-wrap {
+    position: relative;
 
     input[type='checkbox'] {
         margin: 0;
         opacity: 0;
         transform: scale(.1);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
     }
 
     input[type='checkbox'] + label::after {
