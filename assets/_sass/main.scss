@@ -280,9 +280,12 @@ em {
 
 .home__email li {
     list-style-type: none;
+    margin-left: 0;
 }
 
-.email__checkbox-wrap {}
+.email__checkbox-wrap {
+    @include checkbox-wrap;
+}
 
 .email__submit-wrap {
     @media screen and (max-width: 27em) {
