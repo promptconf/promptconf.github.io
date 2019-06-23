@@ -1,5 +1,14 @@
 $checkbox-size: 1em;
 
+$form-field-border: 2px solid $promptpurple;
+$form-field-border-radius: 3px;
+
+@mixin textbox {
+    height: 2em;
+    border: $form-field-border;
+    border-radius: $form-field-border-radius;
+}
+
 // Large, accessible checkboxes: https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3
 @mixin checkbox-wrap {
 
@@ -36,8 +45,8 @@ $checkbox-size: 1em;
         display: inline-block;
         height: $checkbox-size;
         width: $checkbox-size;
-        border: 2px solid $promptpurple;
-        border-radius: 3px;
+        border: $form-field-border;
+        border-radius: $form-field-border-radius;
         left: 0;
         top: 50%;
         transform: translateY(-50%);

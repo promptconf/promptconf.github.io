@@ -57,10 +57,6 @@ button {
     -webkit-appearance: button;
 }
 
-label {
-    font-weight: $font-weight-bold;
-}
-
 // -----------
 //  Typography
 // -----------
@@ -280,6 +276,20 @@ em {
 
 .mc-field-group {
     margin-bottom: $space-standard;
+}
+
+.home__email__address-wrap {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        font-weight: $font-weight-bold;
+        margin-bottom: $space-small;
+    }
+}
+
+.home__email__address__textbox {
+    @include textbox;
 }
 
 .home__email li {
