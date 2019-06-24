@@ -9,6 +9,8 @@ label {
 
 @mixin textbox {
     height: 2em;
+    width: 100%;
+    max-width: 70ch;
     border: $form-field-border;
     border-radius: $form-field-border-radius;
 }
