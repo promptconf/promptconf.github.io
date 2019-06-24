@@ -338,6 +338,14 @@ em {
     }
 }
 
+.sponsor__block__level {
+    font-weight: $font-weight-bold;
+}
+
+.sponsors_cta-text {
+    text-align: center;
+}
+
 .organizers-wrap {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
