@@ -142,6 +142,10 @@ ul li {
     margin-left: $space-small;
 }
 
+dd + dt {
+    margin-top: $space-small;
+}
+
 strong {
     font-weight: $font-weight-bold;
 }
