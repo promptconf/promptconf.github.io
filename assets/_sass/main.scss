@@ -1,24 +1,4 @@
 // -----------
-//  Variables
-// -----------
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900&display=swap');
-
-
-$promptpurple: #3f178c;
-
-$typescale: 1.16;
-
-$font-weight-light: 100;
-$font-weight-bold: 900;
-
-$space-standard: 20px;
-$space-tiny: $space-standard/4;
-$space-small: $space-standard/2;
-$space-large: $space-standard * 2;
-
-$border-standard: 1px solid $promptpurple;
-
-// -----------
 //  Base Styles and Layout
 // -----------
 html, body {
@@ -30,7 +10,7 @@ body {
     display: grid;
     grid-template-columns: [page-start] minmax($space-standard, auto) [content-start] minmax(auto, 65rem) [content-end] minmax($space-standard, auto) [page-end];
     grid-template-rows: max-content auto max-content;
-    font-family: Roboto;
+    font-family: $font-family;
     font-size: 18px;
 }
 
@@ -66,7 +46,7 @@ a {
     color: white;
     font-weight: bold;
     font-size: 1.25rem;
-    font-family: Roboto;
+    font-family: $font-family;
     text-decoration: none;
     text-transform: capitalize;
     cursor: pointer;
@@ -77,15 +57,11 @@ button {
     -webkit-appearance: button;
 }
 
-label {
-    font-weight: $font-weight-bold;
-}
-
 // -----------
 //  Typography
 // -----------
 
-h1, h2, h3, h4, h5, h6, p, li, dt, dd {
+h1, h2, h3, h4, h5, h6, p, dt, dd {
     line-height: 1.5;
 }
 
@@ -128,6 +104,8 @@ p {
     margin-bottom: $space-standard;
 }
 
+$font-size-small: 1em / $typescale;
+
 p:last-child {
     margin-bottom: 0;
 }
@@ -140,6 +118,10 @@ ul li {
     list-style-type: disc;
     list-style-position: inside;
     margin-left: $space-small;
+}
+
+li {
+    line-height: 2;
 }
 
 dd + dt {
@@ -238,16 +220,21 @@ em {
     margin-bottom: $space-standard;
 }
 
+.conference-info__cta__content--small {
+    font-size: $font-size-small;
+    flex-basis: calc(50% - #{$space-tiny});
+}
+
 .conference-info__cta__button-wrap {
     display: flex;
     justify-content: space-around;
     align-content: space-around;
     align-items: center;
 
-    @media screen and (max-width: 55rem) {
+    @media screen and (max-width: 65rem) {
         flex-direction: column;
 
-        .button + .button {
+        .button + * {
             margin-top: $space-tiny;
         }
     }
@@ -295,20 +282,33 @@ em {
     margin-bottom: $space-standard;
 }
 
+.home__email__address-wrap {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        margin-bottom: $space-small;
+    }
+}
+
+.home__email__address__textbox {
+    @include textbox;
+}
+
 .home__email li {
     list-style-type: none;
+    margin-left: 0;
 }
 
-.home__email [type='checkbox'] {
-    margin-right: $space-small;
+.home__email__checkbox-wrap {
+    @include checkbox-wrap;
+
+    label {
+        font-weight: normal;
+    }
 }
 
-.email__explain {
-    font-style: italic;
-    font-weight: normal;
-}
-
-.email__submit-wrap {
+.home__email__submit-wrap {
     @media screen and (max-width: 27em) {
         text-align: center;
     }
@@ -340,6 +340,14 @@ em {
     @media screen and (max-width: 30em) {
         max-width: 75vw;
     }
+}
+
+.sponsor__block__level {
+    font-weight: $font-weight-bold;
+}
+
+.sponsors_cta-text {
+    text-align: center;
 }
 
 .organizers-wrap {
