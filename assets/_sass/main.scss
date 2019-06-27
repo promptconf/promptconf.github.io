@@ -124,6 +124,10 @@ li {
     line-height: 2;
 }
 
+dd + dt {
+    margin-top: $space-small;
+}
+
 strong {
     font-weight: $font-weight-bold;
 }
