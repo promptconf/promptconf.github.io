@@ -2,8 +2,8 @@
 #   link: /
 - name: Register
   link: /#email
-- name: Call for Proposals
-  link: /proposals/
+# - name: Call for Proposals
+#   link: /proposals/
 # - name: Speakers
 #   link: /#speakers
 # - name: Emails
