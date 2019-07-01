@@ -15,8 +15,8 @@ Therefore, we do not tolerate harassment of our attendees or participants, at th
 - Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, or religion
 - Unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment
 - Deliberate misgendering or use of 'dead' or rejected names
-- Gratuitous or off-topic sexual images or behaviour in spaces where they're not appropriate
-- Physical contact and simulated physical contact (e.g. textual descriptions like "hug" or "backrub") without consent or after a request to stop
+- Gratuitous or off-topic sexual images or behavior in spaces where they're not appropriate
+- Physical contact and simulated physical contact (e.g. textual descriptions like "hug" or "back rub") without consent or after a request to stop
 - Threats of violence
 - Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm
 - Deliberate intimidation

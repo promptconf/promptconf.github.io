@@ -3,6 +3,6 @@ short_name: mica
 name: Mica Alaniz
 company: DNC
 pronouns: she/her
-image: mica.png
+image: mica.jpeg
 ---
 Mica's bio here

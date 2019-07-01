@@ -1,0 +1,77 @@
+$checkbox-size: 1em;
+
+$form-field-border: 2px solid $promptpurple;
+$form-field-border-radius: 3px;
+
+label {
+    font-weight: $font-weight-bold;
+}
+
+@mixin textbox {
+    height: 2em;
+    width: 100%;
+    max-width: 70ch;
+    border: $form-field-border;
+    border-radius: $form-field-border-radius;
+}
+
+// Large, accessible checkboxes: https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3
+@mixin checkbox-wrap {
+    position: relative;
+
+    input[type='checkbox'] {
+        margin: 0;
+        opacity: 0;
+        transform: scale(.1);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+    input[type='checkbox'] + label::after {
+        content: none;
+    }
+
+    input[type='checkbox']:checked + label::after {
+        content: '';
+    }
+
+    input[type='checkbox']:focus + label::before {
+        outline: rgb(59, 153, 252) auto 5px;
+    }
+
+    label {
+        position: relative;
+        padding-left: calc(#{$checkbox-size} + #{$space-small});
+    }
+
+    label::before,
+    label::after {
+        position: absolute;
+    }
+
+    label::before { // checkbox
+        content: '';
+        display: inline-block;
+        height: $checkbox-size;
+        width: $checkbox-size;
+        border: $form-field-border;
+        border-radius: $form-field-border-radius;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    label::after { // checkmark
+        content: '';
+        display: inline-block;
+        height: 6px;
+        width: 9px;
+        border-left: 2px solid $promptpurple;
+        border-bottom: 2px solid $promptpurple;
+        transform: rotate(-45deg);
+        left: .25em;
+        top: .25em;
+    }
+}
