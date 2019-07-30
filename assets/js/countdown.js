@@ -1,13 +1,8 @@
 let countdown;
-const timerDay = document.querySelector('.countdown__item--days .countdown__value');
-const timerHours = document.querySelector('.countdown__item--hours .countdown__value');
-const timerMinutes = document.querySelector('.countdown__item--minutes .countdown__value');
-const timerSeconds = document.querySelector('.countdown__item--seconds .countdown__value');
-
-const textDay = document.querySelector('.countdown__item--days .countdown__label');
-const textHours = document.querySelector('.countdown__item--hours .countdown__label');
-const textMinutes = document.querySelector('.countdown__item--minutes .countdown__label');
-const textSeconds = document.querySelector('.countdown__item--seconds .countdown__label');
+const timerDay = document.querySelector('.countdown__item--days');
+const timerHours = document.querySelector('.countdown__item--hours');
+const timerMinutes = document.querySelector('.countdown__item--minutes');
+const timerSeconds = document.querySelector('.countdown__item--seconds');
 
 const promptConfStart = new Date('September 28, 2019 10:00:00 GMT-05:00');
 
@@ -21,7 +16,7 @@ function timer(milliseconds) {
     countdown = setInterval(() => {
         if (seconds < 0) {
             clearInterval(countdown)
-            timerDisplay.textContent = 'Now!';
+            timerDisplay.textContent = 'Now!'; // TODO: make this work with new design or remove
             return
         }
         seconds--
@@ -40,11 +35,6 @@ function displayTimeLeft(timeLeft) {
     const remainderOfMinutes = remainderOfHours % 60;
 
     const seconds = Math.floor(remainderOfMinutes);
-
-    textDay.textContent = 'D: ';
-    textHours.textContent = 'H: ';
-    textMinutes.textContent = 'M: ';
-    textSeconds.textContent = 'S: ';
 
     timerDay.textContent = days;
     timerHours.textContent = hours;
