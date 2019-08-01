@@ -3,6 +3,7 @@
 // -----------
 html, body {
     height: 100%;
+    font-size: 112.5%;
 }
 
 body {
@@ -11,7 +12,6 @@ body {
     grid-template-columns: [page-start] minmax($space-standard, auto) [content-start] minmax(auto, 65rem) [content-end] minmax($space-standard, auto) [page-end];
     grid-template-rows: max-content auto max-content;
     font-family: $font-family;
-    font-size: 18px;
 }
 
 header,
@@ -70,41 +70,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 1em * $typescale * $typescale * $typescale * $typescale * $typescale * $typescale;
+    font-size: 1rem * $typescale * $typescale * $typescale * $typescale * $typescale * $typescale;
     font-weight: $font-weight-bold;
 }
 
 h2 {
-    font-size: 1em * $typescale * $typescale * $typescale * $typescale * $typescale;
+    font-size: 1rem * $typescale * $typescale * $typescale * $typescale * $typescale;
     font-weight: $font-weight-bold;
 }
 
 h3 {
-    font-size: 1em * $typescale * $typescale * $typescale * $typescale;
+    font-size: 1rem * $typescale * $typescale * $typescale * $typescale;
     font-weight: $font-weight-bold;
 }
 
 h4 {
-    font-size: 1em * $typescale * $typescale * $typescale;
+    font-size: 1rem * $typescale * $typescale * $typescale;
     font-weight: $font-weight-bold;
 }
 
 h5 {
-    font-size: 1em * $typescale * $typescale;
+    font-size: 1rem * $typescale * $typescale;
     font-weight: 900;
 }
 
 h6 {
-    font-size: 1em * $typescale;
+    font-size: 1rem * $typescale;
     font-weight: 900;
 }
   
 p {
-    font-size: 1em;
+    font-size: 1rem;
     margin-bottom: $space-standard;
 }
 
-$font-size-small: 1em / $typescale;
+$font-size-small: 1rem / $typescale;
 
 p:last-child {
     margin-bottom: 0;
@@ -205,13 +205,21 @@ em {
     text-decoration: underline;
 }
 
-.home__email,
+.home__attend {
+    display: flex;
+}
+
+.email-headline {
+    font-size: 1rem;
+}
+
+.email-newsletter,
 .home__faq {
     border: $border-standard;
     padding: $space-standard;
 }
 
-.home__email p {
+.email-newsletter p {
     margin-bottom: $space-standard;
 }
 
@@ -219,7 +227,7 @@ em {
     margin-bottom: $space-standard;
 }
 
-.home__email__address-wrap {
+.email-newsletter__address-wrap {
     display: flex;
     flex-direction: column;
 
@@ -228,16 +236,16 @@ em {
     }
 }
 
-.home__email__address__textbox {
+.email-newsletter__address__textbox {
     @include textbox;
 }
 
-.home__email li {
+.email-newsletter li {
     list-style-type: none;
     margin-left: 0;
 }
 
-.home__email__checkbox-wrap {
+.email-newsletter__checkbox-wrap {
     @include checkbox-wrap;
 
     label {
@@ -245,7 +253,7 @@ em {
     }
 }
 
-.home__email__submit-wrap {
+.email-newsletter__submit-wrap {
     @media screen and (max-width: 27em) {
         text-align: center;
     }
