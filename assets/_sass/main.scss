@@ -71,22 +71,22 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 1em * $typescale * $typescale * $typescale * $typescale * $typescale * $typescale;
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-bold;
 }
 
 h2 {
     font-size: 1em * $typescale * $typescale * $typescale * $typescale * $typescale;
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-bold;
 }
 
 h3 {
     font-size: 1em * $typescale * $typescale * $typescale * $typescale;
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-bold;
 }
 
 h4 {
     font-size: 1em * $typescale * $typescale * $typescale;
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-bold;
 }
 
 h5 {
@@ -141,9 +141,24 @@ em {
 //  Page and Section Styles
 // -----------
 
-.header {
-    padding: $space-standard;
+.countdown {
+    position: absolute;
+    top: $space-large;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45ch;
+    max-width: 100%;
+    text-align: center;
+    padding: $space-small 1rem;
+    background: #E0EFF1;
+    color: #044D62;
+    font-weight: 500;
+    font-size: $font-size-small;
+}
 
+.header {
+    padding: ($space-large * 4) $space-standard $space-standard;
+    text-align: center;
 }
 
 // .header__logo {
@@ -153,6 +168,10 @@ em {
 
 .header__date-loc {
     font-weight: $font-weight-bold;
+
+    span {
+        margin-right: $space-standard;
+    }
 }
 
 .nav {
@@ -230,21 +249,6 @@ em {
 
 .conference-info__date-location__details {
     font-weight: $font-weight-bold;
-}
-
-.countdown {
-    position: absolute;
-    top: $space-large;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 45ch;
-    max-width: 100%;
-    text-align: center;
-    padding: $space-small 1rem;
-    background: #E0EFF1;
-    color: #044D62;
-    font-weight: 500;
-    font-size: $font-size-small;
 }
 
 .home__email,
