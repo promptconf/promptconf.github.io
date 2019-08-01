@@ -217,16 +217,16 @@ em {
     }
 }
 
+.attend__content {
+    color: white;
+}
 
-.email-newsletter,
-.home__faq {
-    border: $border-standard;
-    padding: $space-standard;
+.attend__email {
+    background: $eggshell;
+    padding: $space-large;
 }
 
 .email-newsletter {
-    background: $eggshell;
-
     label {
         margin-bottom: $space-small;
         font-size: $font-size-small;
@@ -237,6 +237,7 @@ em {
         width: 100%;
         background: $maize;
         color: black;
+        box-shadow: 0px 3px 0px #A69E00;
     }
 
     input[type='email'] {
@@ -246,10 +247,11 @@ em {
 
 .email-newsletter__headline {
     font-size: 1rem;
+    margin-bottom: $space-standard;
 }
 
 .mc-field-group {
-    margin-bottom: $space-standard;
+    margin-bottom: $space-large;
 }
 
 .email-newsletter__address-wrap {
@@ -403,6 +405,11 @@ em {
     padding-right: $space-tiny;
     margin-right: $space-tiny;
     font-weight: $font-weight-bold;
+}
+
+.home__faq {
+    border: $border-standard;
+    padding: $space-standard;
 }
 
 .faq__list {
