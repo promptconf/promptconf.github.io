@@ -143,28 +143,16 @@ em {
 
 .header {
     padding: $space-standard;
-    background-color: $promptpurple;
-    background-image: url(../images/header__chicago_large.jpg);
-    background-size: cover;
-    background-blend-mode: lighten; // =exclusion, =difference, *hard-light, lighten, =luminosity, screen, =soft-light
-    background-position-y: 85%;
 
-    @media screen and (max-width: 60rem) {
-        display: flex;
-        flex-wrap: wrap;
-        background-image: url(../images/header__chicago_medium.jpg);
-        background-position-y: 15%;
-    }
-
-    @media screen and (max-width: 33rem) {
-        background-image: url(../images/header__chicago_small.jpg);
-        background-position-x: right;
-    }
 }
 
-.header__logo {
-    width: 12rem;
-    margin: 0 $space-standard $space-standard 0;
+// .header__logo {
+//     width: 12rem;
+//     margin: 0 $space-standard $space-standard 0;
+// }
+
+.header__date-loc {
+    font-weight: $font-weight-bold;
 }
 
 .nav {
