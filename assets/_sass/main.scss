@@ -39,13 +39,12 @@ a {
 }
 
 .button {
-    padding: 0.5em;
+    padding: $space-small;
     border-radius: 3px;
     border: 0;
     background-color: $promptpurple;
     color: white;
-    font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-family: $font-family;
     text-decoration: none;
     text-transform: capitalize;
@@ -207,11 +206,17 @@ em {
 
 .home__attend {
     display: flex;
+    background: $ocean;
+
+    div {
+        flex-basis: 50%;
+    }
+
+    a {
+        color: $maize;
+    }
 }
 
-.email-headline {
-    font-size: 1rem;
-}
 
 .email-newsletter,
 .home__faq {
@@ -219,8 +224,28 @@ em {
     padding: $space-standard;
 }
 
-.email-newsletter p {
-    margin-bottom: $space-standard;
+.email-newsletter {
+    background: $eggshell;
+
+    label {
+        margin-bottom: $space-small;
+        font-size: $font-size-small;
+        font-weight: normal;
+    }
+
+    .button {
+        width: 100%;
+        background: $maize;
+        color: black;
+    }
+
+    input[type='email'] {
+        border-color: $ocean;
+    }
+}
+
+.email-newsletter__headline {
+    font-size: 1rem;
 }
 
 .mc-field-group {
@@ -230,10 +255,6 @@ em {
 .email-newsletter__address-wrap {
     display: flex;
     flex-direction: column;
-
-    label {
-        margin-bottom: $space-small;
-    }
 }
 
 .email-newsletter__address__textbox {
@@ -248,8 +269,9 @@ em {
 .email-newsletter__checkbox-wrap {
     @include checkbox-wrap;
 
-    label {
-        font-weight: normal;
+    label:before,
+    label:after {
+        border-color: $marigold;
     }
 }
 
