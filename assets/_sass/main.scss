@@ -205,60 +205,6 @@ em {
     text-decoration: underline;
 }
 
-.conference-info__wrap {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: $space-standard;
-    grid-column-gap: $space-standard;
-
-    @media screen and (max-width: 40em) {
-        grid-template-columns: 1fr;
-    }
-}
-
-.conference-info__headline p {
-    font-weight: $font-weight-bold;
-}
-
-.conference-info__cta {
-    border: $border-standard;
-    padding: $space-standard;
-    display: grid;
-    grid-template-rows: auto max-content;
-}
-
-.conference-info__cta__heading {
-    font-size: 1em * $typescale * $typescale * $typescale * $typescale;
-}
-
-.conference-info__cta__content {
-    margin-bottom: $space-standard;
-}
-
-.conference-info__cta__content--small {
-    font-size: $font-size-small;
-    flex-basis: calc(50% - #{$space-tiny});
-}
-
-.conference-info__cta__button-wrap {
-    display: flex;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: center;
-
-    @media screen and (max-width: 65rem) {
-        flex-direction: column;
-
-        .button + * {
-            margin-top: $space-tiny;
-        }
-    }
-}
-
-.conference-info__date-location__details {
-    font-weight: $font-weight-bold;
-}
-
 .home__email,
 .home__faq {
     border: $border-standard;
