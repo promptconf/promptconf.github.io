@@ -159,6 +159,7 @@ em {
 .header {
     padding: ($space-large * 4) $space-standard $space-standard;
     text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
 // .header__logo {
@@ -174,9 +175,14 @@ em {
     }
 }
 
+.header__cta {
+    margin-top: $space-large * 2;
+}
+
 .nav {
     display: flex;
     justify-content: space-around;
+    margin-top: $space-large * 2;
 
     @media screen and (max-width: 60rem) {
         flex-direction: column;
