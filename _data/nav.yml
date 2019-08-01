@@ -8,9 +8,9 @@
   link: /speakers/
 # - name: Emails
 #   link: /#email
-- name: Sponsorship
+- name: Sponsors
   link: /sponsorship/
-# - name: FAQ
-#   link: /#faq
+- name: FAQ
+  link: /#faq
 - name: Code of Conduct
   link: /conduct/
