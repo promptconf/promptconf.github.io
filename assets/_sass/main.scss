@@ -181,8 +181,11 @@ em {
 
 .nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: $space-large * 2;
+    margin: ($space-large * 2) auto $space-small;
+    max-width: 65ch;
+    // TODO: this should be grid with a specified gap
 
     // @media screen and (max-width: 60rem) {
     //     flex-direction: column;
