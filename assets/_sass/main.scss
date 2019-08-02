@@ -207,6 +207,10 @@ em {
 
 .attend__content {
     color: white;
+
+    h2 {
+        margin-bottom: $space-standard;
+    }
 }
 
 .attend__email {
@@ -272,6 +276,13 @@ em {
 // MailChimp form submission confirmation
 .response {
     margin-bottom: $space-standard;
+}
+
+.home__speakers {
+    h2 {
+        text-align: center;
+        margin-bottom: $space-xlarge;
+    }
 }
 
 .sponsors__row {
@@ -347,14 +358,15 @@ em {
 .speaker__headshot__wrap {
     grid-row-start: 1;
     grid-row-end: span 2;
-    border: $border-standard;
-    width: 100%;
-    height: 100%;
+    width: 8.8rem;
+    height: 9.2rem;
 
     img {
         object-fit: cover;
         width: 100%;
         height: 100%;
+        border-radius: 50%;
+        box-shadow: $box-shadow-standard;
     }
 }
 
@@ -385,8 +397,13 @@ em {
     margin-bottom: 0;
 }
 
-.organizer__name,
 .speaker__name {
+    display: block;
+    margin-bottom: $space-standard;
+    font-weight: $font-weight-bold;
+}
+
+.organizer__name {
     border-right: 1px solid black;
     padding-right: $space-tiny;
     margin-right: $space-tiny;
