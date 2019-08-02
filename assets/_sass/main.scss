@@ -191,7 +191,9 @@ em {
 }
 
 .home__attend {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: $space-xlarge;
     background: $ocean;
 
     div {
@@ -208,8 +210,9 @@ em {
 }
 
 .attend__email {
-    background: $eggshell;
+    border-radius: $border-radius-standard;
     padding: $space-large;
+    background: $eggshell;
 }
 
 .email-newsletter {
@@ -236,13 +239,10 @@ em {
     margin-bottom: $space-standard;
 }
 
-.mc-field-group {
-    margin-bottom: $space-large;
-}
-
 .email-newsletter__address-wrap {
     display: flex;
     flex-direction: column;
+    margin-bottom: $space-standard;
 }
 
 .email-newsletter__address__textbox {
