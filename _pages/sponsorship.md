@@ -22,7 +22,7 @@ Supporting Prompt Conf allows you direct exposure to a community-focused, inclus
 
 ## Sponsorship Packages
 
-**Platinum Sponsor - $1000**
+**Platinum Sponsor - $3000**
 - 3 tickets
 - Logo on website
 - Acknowledgement at the conference
@@ -30,14 +30,14 @@ Supporting Prompt Conf allows you direct exposure to a community-focused, inclus
 - Sponsor table space at the conference
 - A 2-minute introduction to your organization at the conference
 
-**Gold Sponsor - $500**
+**Gold Sponsor - $1000**
 - 2 tickets
 - Logo on website
 - Acknowledgement at the conference
 - Social media exposure
 - Sponsor table space at the conference
  
-**Community  Sponsor - $250**
+**Community  Sponsor - $500**
 - 1 ticket
 - Mention on website
 - Acknowledgement at the conference
