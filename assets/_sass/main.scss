@@ -8,29 +8,11 @@ html, body {
 
 body {
     box-sizing: border-box;
-    display: grid;
-    grid-template-columns: [page-start] minmax($space-standard, auto) [content-start] minmax(auto, 65rem) [content-end] minmax($space-standard, auto) [page-end];
-    grid-template-rows: max-content auto max-content;
     font-family: $font-family;
 }
 
-header,
-footer {
-    grid-column: page-start / page-end;
-}
-
-.container {
-    grid-column: content-start / content-end;
+main {
     margin-bottom: $space-large;
-}
-
-header,
-section {
-    margin-bottom: $space-large;
-}
-
-section {
-    padding: 0 $space-standard;
 }
 
 a {
@@ -156,7 +138,7 @@ em {
 }
 
 .header {
-    padding: ($space-large * 4) $space-standard $space-standard;
+    padding: $space-jumbo $space-standard $space-standard;
     text-align: center;
     border-bottom: 1px solid #ddd;
 }
@@ -175,14 +157,14 @@ em {
 }
 
 .header__cta {
-    margin-top: $space-large * 2;
+    margin-top: $space-xlarge;
 }
 
 .nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: ($space-large * 2) auto $space-small;
+    margin: $space-xlarge auto $space-small;
     max-width: 65ch;
     // TODO: this should be grid with a specified gap
 
@@ -202,6 +184,10 @@ em {
 
 .nav__item--active {
     text-decoration: underline;
+}
+
+.section--home {
+    padding: $space-xlarge $space-jumbo;
 }
 
 .home__attend {
@@ -409,7 +395,6 @@ em {
 
 .home__faq {
     border: $border-standard;
-    padding: $space-standard;
 }
 
 .faq__list {
