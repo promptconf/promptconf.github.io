@@ -420,13 +420,18 @@ em {
     font-weight: $font-weight-bold;
 }
 
+$photo-banner-breakpoint: 47rem;
+
 .photo-banner {
     display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 420px)); // TODO: size in viewport units
-    // justify-items: center;
+    grid-template-columns: repeat(3, minmax(14rem, 30vw));
     justify-content: space-between;
     padding: $space-xlarge $space-small 0;
     background: $eggshell;
+
+    @media screen and (max-width: $photo-banner-breakpoint) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .photo-banner__item {
@@ -438,6 +443,11 @@ em {
 
 .photo-banner__item--a {
     background-image: url(../images/home/conservatory.jpeg);
+
+    @media screen and (max-width: $photo-banner-breakpoint) {
+        display: none;
+        background-image: none;
+    }
 }
 
 .photo-banner__item--b {
@@ -446,6 +456,11 @@ em {
 
 .photo-banner__item--c {
     background-image: url(../images/home/el.jpeg);
+
+    @media screen and (max-width: $photo-banner-breakpoint) {
+        display: none;
+        background-image: none;
+    }
 }
 
 
