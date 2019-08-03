@@ -140,7 +140,7 @@ em {
 .header {
     padding: $space-jumbo $space-standard $space-standard;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    border-bottom: $border-sections;
 }
 
 // .header__logo {
@@ -214,7 +214,7 @@ em {
 }
 
 .attend__email {
-    border-radius: $border-radius-standard;
+    border-radius: $border-radius-minor;
     padding: $space-large;
     background: $eggshell;
 }
@@ -418,6 +418,20 @@ em {
     padding-right: $space-tiny;
     margin-right: $space-tiny;
     font-weight: $font-weight-bold;
+}
+
+.photo-banner {
+    display: flex;
+    justify-content: space-between;
+    padding: $space-xlarge $space-small 0;
+    background: $eggshell;
+}
+
+.photo-banner__item {
+    border: 1px solid red;
+    width: 420px;
+    height: 280px; // TODO: size in viewport units
+    border-radius: $border-radius-major;
 }
 
 .home__faq {
