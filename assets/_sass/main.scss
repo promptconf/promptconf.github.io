@@ -474,6 +474,9 @@ $photo-banner-breakpoint: 47rem;
 }
 
 .faq__list {
+    max-width: 60ch;
+    margin: auto;
+
     dt {
         font-weight: $font-weight-bold;
         margin-bottom: $space-standard;
