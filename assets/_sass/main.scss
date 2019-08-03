@@ -421,16 +421,21 @@ em {
 }
 
 .home__faq {
-    border: $border-standard;
+    background: $eggshell;
+    text-align: center;
+
+    h2 {
+        margin-bottom: $space-xlarge;
+    }
 }
 
 .faq__list {
     dt {
         font-weight: $font-weight-bold;
-        margin-bottom: $space-small;
+        margin-bottom: $space-standard;
     }
     dd {
-
+        margin-bottom: $space-large;
     }
 }
 
