@@ -285,6 +285,16 @@ em {
     }
 }
 
+.home__sponsors {
+    background: $eggshell;
+    border-top: $border-sections;
+    border-bottom: $border-sections;
+
+    h2 {
+        text-align: center;
+    }
+}
+
 .sponsors__row {
     display: flex;
     justify-content: center;
