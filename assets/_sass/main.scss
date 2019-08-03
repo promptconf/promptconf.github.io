@@ -422,7 +422,7 @@ em {
 
 .photo-banner {
     display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 420px));
+    grid-template-columns: repeat(3, minmax(100px, 420px)); // TODO: size in viewport units
     // justify-items: center;
     justify-content: space-between;
     padding: $space-xlarge $space-small 0;
@@ -430,12 +430,24 @@ em {
 }
 
 .photo-banner__item {
-    border: 1px solid red;
     width: 100%;
-    // height: 280px; // TODO: size in viewport units
     padding-top: 56.25%;
     border-radius: $border-radius-major;
+    background-size: cover;
 }
+
+.photo-banner__item--a {
+    background-image: url(../images/home/conservatory.jpeg);
+}
+
+.photo-banner__item--b {
+    background-image: url(../images/home/chicago-theatre.jpeg);
+}
+
+.photo-banner__item--c {
+    background-image: url(../images/home/el.jpeg);
+}
+
 
 .home__faq {
     background: $eggshell;
