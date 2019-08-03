@@ -436,7 +436,7 @@ $photo-banner-breakpoint: 47rem;
 
 .photo-banner__item {
     width: 100%;
-    padding-top: 56.25%;
+    padding-top: 66%;
     border-radius: $border-radius-major;
     background-size: cover;
 }
@@ -484,6 +484,19 @@ $photo-banner-breakpoint: 47rem;
     dd {
         margin-bottom: $space-large;
     }
+}
+
+.home__loc {
+    text-align: center;
+
+    h2 {
+        margin-bottom: $space-xlarge;
+    }
+}
+
+.loc__cta-text {
+    max-width: 48ch;
+    margin: auto;
 }
 
 .footer {
