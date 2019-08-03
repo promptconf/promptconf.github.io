@@ -499,6 +499,49 @@ $photo-banner-breakpoint: 47rem;
     margin: auto;
 }
 
+.loc__chicons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: $space-xlarge;
+}
+
+.loc__chicon {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.loc__chicon--music {
+    background-image: url(../images/chicons/music.svg);
+}
+
+.loc__chicon--flamingo {
+    background-image: url(../images/chicons/flamingo.svg);
+}
+
+.loc__chicon--donut {
+    background-image: url(../images/chicons/donut.svg);
+}
+
+.loc__chicon--flag {
+    background-image: url(../images/chicons/flag.svg);
+}
+
+.loc__chicon--pizza {
+    background-image: url(../images/chicons/pizza.svg);
+}
+
+.loc__chicon--bean {
+    background-image: url(../images/chicons/bean.svg);
+}
+
+.loc__chicon--ramps {
+    background-image: url(../images/chicons/ramps.svg);
+}
+
+
 .footer {
     display: grid;
     grid-template-columns: auto max-content;
