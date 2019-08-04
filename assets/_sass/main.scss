@@ -488,6 +488,10 @@ $photo-banner-breakpoint: 47rem;
 
 .home__loc {
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: $space-jumbo;
+    border-bottom: 2px solid $eggshell;
 
     h2 {
         margin-bottom: $space-xlarge;
@@ -541,6 +545,27 @@ $photo-banner-breakpoint: 47rem;
     background-image: url(../images/chicons/ramps.svg);
 }
 
+.loc__photo-map-banner {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1.05fr 0.5fr 1fr;
+    grid-column-gap: $space-standard;
+    align-items: center;
+    margin-bottom: $space-xlarge;
+
+    img {
+        max-width: 100%;
+        border-radius: $border-radius-major;
+    }
+}
+
+.loc__map {
+    box-shadow: $box-shadow-standard;
+    border-radius: $border-radius-major;
+}
+
+// .loc__cta-text {
+//     margin-bottom: $space-jumbo;
+// }
 
 .footer {
     display: grid;
