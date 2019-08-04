@@ -563,9 +563,15 @@ $photo-banner-breakpoint: 47rem;
     border-radius: $border-radius-major;
 }
 
-// .loc__cta-text {
-//     margin-bottom: $space-jumbo;
-// }
+.home__about {
+    text-align: center;
+}
+
+.home__about__text {
+    margin: auto;
+    margin-bottom: $space-xlarge;
+    max-width: 70ch;
+}
 
 .footer {
     display: grid;
