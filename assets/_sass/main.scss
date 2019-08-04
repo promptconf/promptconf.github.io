@@ -564,13 +564,17 @@ $photo-banner-breakpoint: 47rem;
 }
 
 .home__about {
-    text-align: center;
+
+    h2, h3 {
+        text-align: center;
+    }
 }
 
 .home__about__text {
     margin: auto;
     margin-bottom: $space-xlarge;
     max-width: 70ch;
+    text-align: center;
 }
 
 .footer {
