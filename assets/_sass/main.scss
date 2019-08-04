@@ -326,52 +326,6 @@ em {
     text-align: center;
 }
 
-.organizers-wrap {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: $space-standard;
-    grid-row-gap: $space-standard;
-    justify-content: space-between;
-    justify-items: center;
-
-    @media screen and (max-width: 50em) {
-        grid-template-columns: repeat(2, 9rem);
-    }
-}
-
-.organizer {
-    display: flex;
-}
-
-.organizer__headshot-wrap {
-    width: 4.4rem;
-    height: 4.4rem;
-    margin-right: $space-standard;
-
-    @media screen and (max-width: 50em) {
-        height: 9rem;
-    }
-}
-
-.organizer__headshot {
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
-
-.organizer__info-wrap {
-    p {
-        margin-bottom: 0;
-    }
-}
-
-.organizer__name {
-    font-weight: $font-weight-bold;
-}
-
 .keynote__wrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -566,6 +520,7 @@ $photo-banner-breakpoint: 47rem;
 .home__about {
 
     h2, h3 {
+        margin-bottom: $space-xlarge;
         text-align: center;
     }
 }
@@ -575,6 +530,53 @@ $photo-banner-breakpoint: 47rem;
     margin-bottom: $space-xlarge;
     max-width: 70ch;
     text-align: center;
+}
+
+.organizers-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    grid-template-rows: auto;
+    grid-column-gap: $space-large;
+    grid-row-gap: $space-standard;
+    justify-content: space-around;
+
+    @media screen and (max-width: 50em) {
+        grid-template-columns: repeat(2, 9rem);
+    }
+}
+
+.organizer {
+    display: flex;
+}
+
+.organizer__headshot-wrap {
+    width: 4.4rem;
+    height: 4.4rem;
+    margin-right: $space-standard;
+
+    @media screen and (max-width: 50em) {
+        height: 9rem;
+    }
+}
+
+.organizer__headshot {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: $box-shadow-standard;
+}
+
+.organizer__info-wrap {
+    p {
+        font-size: $font-size-small;
+        margin-bottom: 0;
+    }
+}
+
+.organizer__name {
+    font-weight: $font-weight-bold;
 }
 
 .footer {
