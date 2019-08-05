@@ -41,6 +41,13 @@ Supporting Prompt Conf allows you direct exposure to a community-focused, inclus
 - 1 ticket
 - Mention on website
 - Acknowledgement at the conference
+ 
+**Closed Captioning Sponsor - $2000 (divisible into 2)**
+- 2 tickets
+- Logo on website
+- Acknowledgement at the conference
+- Social media exposure
+- Logo banner on closed captioning screen throughout the conference
 
 **Interested in sponsoring? Contact [organizers@promptconf.com](mailto:organizers@promptconf.com?subject=Prompt%20Conf%20Sponsorship)!**
 
