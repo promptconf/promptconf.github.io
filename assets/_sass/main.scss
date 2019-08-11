@@ -138,9 +138,13 @@ em {
 }
 
 .header {
-    padding: $space-jumbo $space-standard $space-standard;
+    padding: $space-standard;
     text-align: center;
     border-bottom: $border-sections;
+}
+
+.header--home {
+    padding: $space-jumbo $space-standard $space-standard;
 }
 
 // .header__logo {
