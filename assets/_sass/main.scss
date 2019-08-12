@@ -138,19 +138,26 @@ em {
 }
 
 .header {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: baseline;
     padding: $space-standard;
-    text-align: center;
     border-bottom: $border-sections;
 }
 
 .header--home {
+    display: block;
     padding: $space-jumbo $space-standard $space-standard;
+    text-align: center;
+
+    .header__logo {
+        display: none;
+    }
 }
 
-// .header__logo {
-//     width: 12rem;
-//     margin: 0 $space-standard $space-standard 0;
-// }
+.header__logo {
+    max-height: 3rem;
+}
 
 .header__date-loc {
     font-weight: $font-weight-bold;
