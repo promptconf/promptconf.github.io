@@ -51,7 +51,14 @@
     {% endif %}
 
     {% include header.html %}
-    <main>{{ content }}</main>
+    <main class={% if page.url == '/' %}
+                'main main--home'
+            {% else %}
+                'main main--internal'
+            {% endif %}
+    >
+        {{ content }}
+    </main>
     {% include footer.html %}
 
     {% if page.url == '/' %}
