@@ -150,6 +150,7 @@ em {
     display: block;
     padding: $space-jumbo $space-standard $space-standard;
     text-align: center;
+    overflow: hidden;
 
     .header__logo {
         display: none;
@@ -297,6 +298,7 @@ em {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: $space-xlarge;
     background: $ocean;
+    overflow: hidden;
 
     a {
         color: $maize;
