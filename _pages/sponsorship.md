@@ -16,7 +16,7 @@ By sponsoring Prompt Conf, you and your organization have the opportunity to joi
 ### Sponsor Benefits
 
 Supporting Prompt Conf allows you direct exposure to a community-focused, inclusive tech conference in Chicago. You’ll have access to:
-- Networking opportunities
+- Networking opportunities with 150 technologists
 - Sponsor table space (depending on the package)
 - Targeted reach to those with real interest in computing and Chicago tech!
 
