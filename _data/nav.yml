@@ -4,8 +4,8 @@
   link: /#email
 # - name: Call for Proposals
 #   link: /proposals/
-# - name: Speakers
-#   link: /#speakers
+- name: Speakers
+  link: /speakers/
 # - name: Emails
 #   link: /#email
 - name: Sponsorship
