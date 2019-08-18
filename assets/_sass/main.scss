@@ -207,81 +207,86 @@ em {
 }
 .ellipse--left-a {
     background-image: url('../images/home/ellipse_left-a.svg');
-    top: 0;
-    left: 0;
     width: 6vw;
     height: 13vh;
+    top: 0;
+    left: 0;
 }
 .ellipse--left-b {
     background-image: url('../images/home/ellipse_left-b.svg');
-    top: 4vh;
-    left: 2vw;
-    width: 24vw;
-    height: 33vh;
+    width: 19vw;
+    padding-top: 100%;
+    top: 2%;
+    left: 1%;
 }
 .ellipse--left-c {
     background-image: url('../images/home/ellipse_left-c.svg');
-    top: 50%;
-    left: 2%;
-    width: 20vw;
-    height: 30vh;
+    width: 23vw;
+    padding-top: 118%;
+    top: 44%;
+    left: 1%;
 }
 .ellipse--right-a {
     background-image: url('../images/home/ellipse_right-a.svg');
-    width: 279.05px;
-    height: 305.5px;
+    width: 19vw;
+    padding-top: 91%;
     top: 0;
     right: 3%;
 }
 .ellipse--right-b {
     background-image: url('../images/home/ellipse_right-b.svg');
     width: 20vw;
-    height: 40vh;
+    padding-top: 81%;
     top: 32%;
     right: 0;
 }
 
 .tech-icon {
     position: absolute;
-    width: 75px;
-    height: 75px;
+    width: 3.5rem;
+    height: 3.5rem;
     background-size: contain;
     background-repeat: no-repeat;
+
+    @media screen and (max-width: 68rem) {
+        width: 5vw;
+        height: 5vw;
+    }
 }
 .tech-icon--left-a {
     background-image: url('../images/home/icon_window.svg');
-    top: 15%;
-    right: 16%;
-    transform: rotate(10deg);
+    top: 3%;
+    right: 18%;
+    transform: rotate(10deg) scale(1.125);
 }
 .tech-icon--left-b {
     background-image: url('../images/home/icon_mouse.svg');
+    top: 13%;
     left: 7%;
-    bottom: 10%;
-    transform: rotate(10deg);
+    transform: rotate(10deg) scale(1.125);
 }
 .tech-icon--left-c {
     background-image: url('../images/home/icon_cpu.svg');
-    right: 16%;
-    bottom: 35%;
+    top: 8%;
+    left: 55%;
 }
 .tech-icon--right-a {
     background-image: url('../images/home/icon_keyboard.svg');
-    top: 17%;
-    left: 30%;
-    transform: rotate(-10deg);
+    top: 6%;
+    left: 19%;
+    transform: rotate(-10deg) scale(1.125);
 }
 
 .tech-icon--right-b {
     background-image: url('../images/home/icon_computer.svg');
-    top: 20%;
-    left: 60%;
+    top: 7%;
+    right: 10%;
 }
 .tech-icon--right-c {
     background-image: url('../images/home/icon_gamepad.svg');
-    bottom: 22%;
-    left: 15%;
-    transform: rotate(-20deg);
+    top: 19%;
+    left: 23%;
+    transform: rotate(-20deg) scale(1.25);
 }
 
 .section--home {
