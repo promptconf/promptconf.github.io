@@ -327,6 +327,11 @@ $tech-icon-breakpoint-2: 39rem;
 
 .section--home {
     padding: $space-xlarge $space-jumbo;
+
+    @media screen and (max-width: 555px) {
+        padding-left: $space-standard;
+        padding-right: $space-standard;
+    }
 }
 
 
@@ -337,6 +342,11 @@ $tech-icon-breakpoint-2: 39rem;
 
 .main--internal {
     padding: $space-xlarge $space-jumbo;
+
+        @media screen and (max-width: 555px) {
+        padding-left: $space-standard;
+        padding-right: $space-standard;
+    }
 }
 
 .home__attend {
@@ -349,6 +359,12 @@ $tech-icon-breakpoint-2: 39rem;
 
     a {
         color: $maize;
+    }
+
+    @media screen and (max-width: 860px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-row-gap: $space-standard;
     }
 }
 
@@ -366,6 +382,12 @@ $tech-icon-breakpoint-2: 39rem;
     background: $eggshell;
 }
 
+.attend__icons {
+    @media screen and (max-width: 555px) {
+        display: none;
+    }
+}
+
 .attend__icon {
     position: absolute;
     background-size: contain;
@@ -375,11 +397,15 @@ $tech-icon-breakpoint-2: 39rem;
 .attend__icon--plant {
     background-image: url('../images/home/attend_plant.svg');
     width: 124px;
-height: 235.77px;
-left: 20%;
-bottom: 0;
+    height: 235.77px;
+    left: 20%;
+    bottom: 0;
+    mix-blend-mode: normal;
 
-mix-blend-mode: normal;
+    @media screen and (max-width: 860px) {
+        left: unset;
+        right: 0;
+    }
 }
 
 .attend__icon--photo {
@@ -390,6 +416,12 @@ mix-blend-mode: normal;
     height: 80px;
     transform: rotate(-10deg);
     opacity: 0.3;
+
+    @media screen and (max-width: 860px) {
+        top: 20%;
+        bottom: unset;
+        left: $space-standard;
+    }
 }
 
 .attend__icon--ellipse {
@@ -639,6 +671,11 @@ $photo-banner-breakpoint: 47rem;
 .loc__cta-text {
     max-width: 48ch;
     margin: auto;
+
+    @media screen and (max-width: 555px) {
+        padding-left: $space-small;
+        padding-right: $space-small;
+    }
 }
 
 .loc__chicons {
@@ -653,6 +690,10 @@ $photo-banner-breakpoint: 47rem;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+
+    @media screen and (max-width: 555px) {
+        display: none;
+    }
 }
 
 .loc__chicon--music {
@@ -669,6 +710,10 @@ $photo-banner-breakpoint: 47rem;
 
 .loc__chicon--flag {
     background-image: url(../images/chicons/flag.svg);
+
+    @media screen and (max-width: 555px) {
+        display: block;
+    }
 }
 
 .loc__chicon--pizza {
@@ -694,11 +739,22 @@ $photo-banner-breakpoint: 47rem;
         max-width: 100%;
         border-radius: $border-radius-major;
     }
+
+    @media screen and (max-width: 555px) {
+        grid-template-columns: 0.5fr 1.05fr 0.5fr;
+    }
 }
 
 .loc__map {
     box-shadow: $box-shadow-standard;
     border-radius: $border-radius-major;
+}
+
+.loc__ac-image--a,
+.loc__ac-image--d {
+    @media screen and (max-width: 555px) {
+        display: none;
+    }
 }
 
 .home__about {
@@ -725,7 +781,9 @@ $photo-banner-breakpoint: 47rem;
     justify-content: space-around;
 
     @media screen and (max-width: 50em) {
-        grid-template-columns: repeat(2, 9rem);
+        grid-template-columns: repeat(2, auto);
+        grid-column-gap: $space-standard;
+        justify-content: center;
     }
 }
 
@@ -737,10 +795,7 @@ $photo-banner-breakpoint: 47rem;
     width: 4.4rem;
     height: 4.4rem;
     margin-right: $space-standard;
-
-    @media screen and (max-width: 50em) {
-        height: 9rem;
-    }
+    flex-shrink: 0;
 }
 
 .organizer__headshot {
@@ -793,6 +848,11 @@ $photo-banner-breakpoint: 47rem;
     a {
         text-decoration: none;
         font-weight: normal;
+    }
+
+     @media screen and (max-width: 555px) {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
     }
 }
 
