@@ -5,10 +5,10 @@
   # You can create any custom variable you would like, and they will be accessible
   # in the templates via {{ site.myvariable }}.
 
-title: Prompt Conf 2019
+title: PromptConf 2019
 email: organizers@promptconf.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Introducing Prompt Conf, a polyglot tech conference coming to Chicago.
+  Introducing PromptConf, a polyglot tech conference coming to Chicago.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://promptconf.com" # the base hostname & protocol for your site, e.g. http://example.com
 eventStartDate: 2019-09-28T10:00

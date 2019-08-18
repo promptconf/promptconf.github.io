@@ -26,13 +26,13 @@
     <meta name="og:locale" content="en_US">
 
     <meta property="og:image" content={{ site.baseurl }}{{ '/assets/images/prompt_conf_sq.png' }} />
-    <meta property="og:image:alt" content="Prompt Conf logo" />
+    <meta property="og:image:alt" content="PromptConf logo" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content=300 />
     <meta property="og:image:height" content=300 />
 
     <meta property="og:image" content={{ site.baseurl }}{{ '/assets/images/meta/og_twitter.png' }} />
-    <meta property="og:image:alt" content="Prompt Conf, Chicago, September 28, 2019" />
+    <meta property="og:image:alt" content="PromptConf, Chicago, September 28, 2019" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content=1024 />
     <meta property="og:image:height" content=512 />
@@ -41,10 +41,7 @@
         {{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}
     </title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-        <link rel="stylesheet" href={{ site.baseurl }}{{ '/assets/css/styles.css' }}>
+    <link rel="stylesheet" href={{ site.baseurl }}{{ '/assets/css/styles.css' }}>
     <link rel="shortcut icon" type="image/png" href={{ site.baseurl }}{{ '/favicon.png' }}>
 </head>
 
@@ -54,7 +51,14 @@
     {% endif %}
 
     {% include header.html %}
-    <main class='container'>{{ content }}</main>
+    <main class={% if page.url == '/' %}
+                'main main--home'
+            {% else %}
+                'main main--internal'
+            {% endif %}
+    >
+        {{ content }}
+    </main>
     {% include footer.html %}
 
     {% if page.url == '/' %}

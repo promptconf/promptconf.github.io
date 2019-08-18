@@ -7,7 +7,7 @@ permalink: /conduct/
 
 *A huge thanks to Pear Conf, whose code of conduct inspired ours. Our byline, harassment examples, and examples of what we won’t act on all come from their code of conduct.*
 
-Prompt Conf prioritizes marginalized people's safety over privileged people's comfort.
+PromptConf prioritizes marginalized people's safety over privileged people's comfort.
 
 Therefore, we do not tolerate harassment of our attendees or participants, at the conference venue or outside of it, online or offline. 
 

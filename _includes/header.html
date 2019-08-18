@@ -1,4 +1,38 @@
-<header class='header'> 
-    <a href={{ '/' }}{{ site.baseurl }}><img src={{ site.baseurl }}{{ '/assets/images/prompt_conf_sq.png' }} alt='Prompt Conf logo' class='header__logo'></a>
+<header class={% if page.url == '/' %}
+                'header header--home'
+            {% else %}
+                'header'
+            {% endif %}
+> 
+    <a href={{ '/' }}{{ site.baseurl }}><img src={{ site.baseurl }}{{ '/assets/images/logo.png' }} alt='PromptConf logo' class='header__logo'></a>
+
+    {% if page.url == '/' %}
+
+        <div class="ellipses">
+            <div class="ellipse ellipse--left-a"></div>
+            <div class="ellipse ellipse--left-b">
+                <div class="tech-icon tech-icon--left-a"></div>
+                <div class="tech-icon tech-icon--left-b"></div>
+            </div>
+            <div class="ellipse ellipse--left-c">
+                <div class="tech-icon tech-icon--left-c"></div>
+            </div>
+            <div class="ellipse ellipse--right-a">
+                <div class="tech-icon tech-icon--right-a"></div>
+            </div>
+            <div class="ellipse ellipse--right-b">
+                <div class="tech-icon tech-icon--right-b"></div>
+                <div class="tech-icon tech-icon--right-c"></div>
+            </div>
+        </div>
+
+        {% include partials/countdown.html %}
+        <h1>Join us for PromptConf</h1>
+        <p>A full day of ten-minute talks on the joy of computing</p>
+        <p class='header__date-loc'><span>September 28, 2019</span> Chicago, IL</p>
+
+        <a class='button home--button gtm-cta' href='https://ti.to/prompt-conf/2019'>Register Now</a>
+    {% endif %}
+
     {% include nav.html %}
 </header>

@@ -1,16 +1,30 @@
 @import url('https://rsms.me/inter/inter.css');
 
-$promptpurple: #3f178c;
+$promptpurple: #4C4CBE;
+$marigold: #B76239;
+$sky: #E0EFF1;
+$ocean: #044D62;
+$eggshell: #FFFAF1;
+$maize: #CEC600;
+$lightblack: #131313;
 
 $font-family: 'Inter';
-$typescale: 1.16;
+$typescale: 1.125;
 
 $font-weight-light: 100;
 $font-weight-bold: 700;
 
-$space-standard: 20px;
-$space-tiny: $space-standard / 4;
-$space-small: $space-standard / 2;
-$space-large: $space-standard * 2;
+$space-standard: 1.1rem; // 20px
+$space-tiny: $space-standard / 4; // 5px
+$space-small: $space-standard / 2; // 10px
+$space-large: $space-standard * 2; // 40px
+$space-xlarge: $space-standard * 4; // 80px
+$space-jumbo: $space-standard * 8; // 160px
 
 $border-standard: 1px solid $promptpurple;
+$border-sections: 1px solid #ddd;
+
+$border-radius-minor: 4px;
+$border-radius-major: 8px;
+
+$box-shadow-standard: 2px 5px 7px #e0e0e0;

@@ -8,7 +8,7 @@ label {
 }
 
 @mixin textbox {
-    height: 2em;
+    height: $space-large;
     width: 100%;
     max-width: 70ch;
     border: $form-field-border;
