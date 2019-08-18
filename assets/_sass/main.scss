@@ -539,7 +539,7 @@ $photo-banner-breakpoint: 47rem;
 }
 
 .photo-banner__item--a {
-    background-image: url(../images/home/chi_conservatory.jpeg);
+    background-image: url(../images/home/chi_conservatory.jpg);
 
     @media screen and (max-width: $photo-banner-breakpoint) {
         display: none;
@@ -548,11 +548,11 @@ $photo-banner-breakpoint: 47rem;
 }
 
 .photo-banner__item--b {
-    background-image: url(../images/home/chi_chicago-theatre.jpeg);
+    background-image: url(../images/home/chi_chicago-theatre.jpg);
 }
 
 .photo-banner__item--c {
-    background-image: url(../images/home/chi_el.jpeg);
+    background-image: url(../images/home/chi_el.jpg);
 
     @media screen and (max-width: $photo-banner-breakpoint) {
         display: none;
