@@ -342,8 +342,13 @@ $tech-icon-breakpoint-2: 39rem;
 
 .main--internal {
     padding: $space-xlarge $space-jumbo;
+    max-width: 70ch;
 
-        @media screen and (max-width: 555px) {
+    p {
+        line-height: 2;
+    }
+
+    @media screen and (max-width: 555px) {
         padding-left: $space-standard;
         padding-right: $space-standard;
     }
