@@ -542,6 +542,10 @@ $tech-icon-breakpoint-2: 39rem;
     }
 }
 
+.sponsor__logo--bt { // TODO: logo is too big compared to scale of other logo. This is better resolved with object fit and some refactoring. But making a quick fix for now
+    width: 70%;
+}
+
 .sponsor__block__level {
     font-weight: $font-weight-bold;
 }
