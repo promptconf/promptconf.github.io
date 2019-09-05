@@ -531,20 +531,24 @@ $tech-icon-breakpoint-2: 39rem;
 .sponsor__block {
     text-align: center;
     margin: $space-small;
-}
+    max-width: 20rem;
 
-.sponsor__logo {
-    width: 100%;
-    height: 100%;
-    max-width: 18em;
 
     @media screen and (max-width: 30em) {
         max-width: 75vw;
     }
+
+    a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
 }
 
-.sponsor__logo--bt { // TODO: logo is too big compared to scale of other logo. This is better resolved with object fit and some refactoring. But making a quick fix for now
-    width: 70%;
+.sponsor__logo {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
 .sponsor__block__level {
