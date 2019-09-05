@@ -516,6 +516,11 @@ $tech-icon-breakpoint-2: 39rem;
     }
 }
 
+.sponsors__level {
+    text-align: center;
+    font-size: 1rem;
+}
+
 .sponsors__row {
     display: flex;
     flex-wrap: wrap;
@@ -551,12 +556,9 @@ $tech-icon-breakpoint-2: 39rem;
     height: 100%;
 }
 
-.sponsor__block__level {
-    font-weight: $font-weight-bold;
-}
-
 .sponsors_cta-text {
     text-align: center;
+    margin-top: $space-xlarge;
 }
 
 .keynote__wrap {
