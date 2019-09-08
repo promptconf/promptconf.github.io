@@ -6,7 +6,7 @@ permalink: /schedule/
 # Conference Schedule (Tentative)
 
 | 9:15am    | Check In, Coffee, & Light Breakfast   |
-| 10am      | Oepning Keynote                       |
+| 10am      | Opening Keynote                       |
 | 10:30am   | Talks                                 |
 | 11:20am   | Break                                 |
 | 11:40am   | Talks                                 |
