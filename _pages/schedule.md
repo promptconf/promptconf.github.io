@@ -3,7 +3,7 @@ title: Schedule
 permalink: /schedule/
 ---
 
-# Conference Scheduled
+# Conference Schedule (Tentative)
 
 | 9:15am    | Check In, Coffee, & Light Breakfast   |
 | 10am      | Oepning Keynote                       |
@@ -18,3 +18,4 @@ permalink: /schedule/
 | 4:10pm    | Talks                                 |
 | 5pm       | Closing Keynote                       |
 | 5:30pm    | Closing Remarks                       |
+{: .schedule }

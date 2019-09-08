@@ -677,6 +677,17 @@ $photo-banner-breakpoint: 47rem;
     }
 }
 
+.schedule {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.schedule td {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
 .home__loc {
     text-align: center;
     padding-left: 0;
