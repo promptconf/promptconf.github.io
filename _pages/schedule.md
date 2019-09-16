@@ -27,11 +27,11 @@ permalink: /schedule/
 | 3:04pm    | Creating Mixed Reality Experiences - From Zero to Hero!, by Karthickeyan Narasimhan                                              |
 | 3:16pm    | Making furniture with JavaScript, by Amit Nambiar                                                                                |
 | 3:30pm    | Snack Break                                                                                                                      |
-| 3:45pm    | The Coder's 10 Minute Guide to Design, by Mark Lassoff                                                                           |
-| 3:57pm    | Caption this! The importance of captioning for accessibility, by Imelda March                                                    |
-| 4:09pm    | POURing Accessibility into Your Applications, by Kayla Sween                                                                     |
-| 4:17pm    | The Joy of Interactive Generative Art, by Phil Smith                                                                             |
-| 4:30pm    | Break                                                                             |
+| 3:55pm    | The Coder's 10 Minute Guide to Design, by Mark Lassoff                                                                           |
+| 4:07pm    | Caption this! The importance of captioning for accessibility, by Imelda March                                                    |
+| 4:19pm    | POURing Accessibility into Your Applications, by Kayla Sween                                                                     |
+| 4:30pm    | The Joy of Interactive Generative Art, by Phil Smith                                                                             |
+| 4:40pm    | Break                                                                             |
 | 5pm       | Closing Keynote                                                                                                                  |
 | 5:30pm    | Closing Remarks                                                                                                                  |
 {: .schedule }
