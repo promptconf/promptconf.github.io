@@ -526,7 +526,7 @@ $tech-icon-breakpoint-2: 39rem;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: $space-standard;
+    margin-bottom: $space-large;
 }
 
 .sponsors__row:last-of-type {
@@ -549,6 +549,10 @@ $tech-icon-breakpoint-2: 39rem;
         width: 100%;
         height: 100%;
     }
+}
+
+.sponsor__block--community {
+    height: auto;
 }
 
 .sponsor__logo {
