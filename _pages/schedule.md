@@ -6,7 +6,7 @@ permalink: /schedule/
 # Conference Schedule (Tentative)
 
 | 9:15am    | Check In, Coffee, & Light Breakfast                                                                                              |
-| 10am      | Opening Keynote                                                                                                                  |
+| 10am      | Opening Keynote: What is the Joy, by Naomi Ceder                                                                                 |
 | 10:30am   | The Joy of Sweating the Small Stuff, by Nicole Carlson                                                                           |
 | 10:42am   | Bird by Bird: Writerly Thoughts on Writing and Refactoring Code, by Michael Ericksen                                             |
 | 10:54am   | Plot Devices: Tools for Better Data Visualization, by Hana Lee                                                                   |
@@ -32,6 +32,6 @@ permalink: /schedule/
 | 4:19pm    | POURing Accessibility into Your Applications, by Kayla Sween                                                                     |
 | 4:30pm    | The Joy of Interactive Generative Art, by Phil Smith                                                                             |
 | 4:40pm    | Break                                                                             |
-| 5pm       | Closing Keynote                                                                                                                  |
+| 5pm       | Closing Keynote: From adversary to advocate: One engineer’s journey to seeing the bigger picture of roads into tech, by Mark Thompson  |
 | 5:30pm    | Closing Remarks                                                                                                                  |
 {: .schedule }
