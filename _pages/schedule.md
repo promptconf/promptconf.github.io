@@ -32,6 +32,6 @@ permalink: /schedule/
 | 4:19pm    | POURing Accessibility into Your Applications, by Kayla Sween                                                                     |
 | 4:30pm    | The Joy of Interactive Generative Art, by Phil Smith                                                                             |
 | 4:40pm    | Break                                                                             |
-| 5pm       | Closing Keynote                                                                                                                  |
+| 5pm       | Closing Keynote: From adversary to advocate: One engineer’s journey to seeing the bigger picture of roads into tech, by Mark Thompson  |
 | 5:30pm    | Closing Remarks                                                                                                                  |
 {: .schedule }
