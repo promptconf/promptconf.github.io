@@ -20,7 +20,7 @@ permalink: /schedule/
 | 1:45pm    | A *legit* programming language, by Sebastian Morr                                                                                |
 | 1:57pm    | Panic! at the Browser, by Jacqueline Gu                                                                                          |
 | 2:09pm    | Everything is an operating system (if it tries hard enough), by Josh Bowman-Matthews                                             |
-| 2:17pm    | How I Added Ordinal Plural Support to Mozilla’s Fluent Project by Pre-emptively Fixing the JS Intl Specification, by Eemeli Aro  |
+| 2:20pm    | How I Added Ordinal Plural Support to Mozilla’s Fluent Project by Pre-emptively Fixing the JS Intl Specification, by Eemeli Aro  |
 | 2:30pm    | Break                                                                                                                            |
 | 2:40pm    | Coding Out the Clink, by Ahmed Jalloh                                                                                            |
 | 2:52pm    | Open Source Hardware Design, by David Stanford                                                                                   |
