@@ -21,18 +21,17 @@ permalink: /schedule/
 | 1:45pm    | A *legit* programming language, by Sebastian Morr                                                                                |
 | 1:57pm    | Panic! at the Browser, by Jacqueline Gu                                                                                          |
 | 2:09pm    | Everything is an operating system (if it tries hard enough), by Josh Bowman-Matthews                                             |
-| 2:20pm    | How I Added Ordinal Plural Support to Mozilla’s Fluent Project by Pre-emptively Fixing the JS Intl Specification, by Eemeli Aro  |
-| 2:30pm    | Break                                                                                                                            |
-| 2:40pm    | Coding Out the Clink, by Ahmed Jalloh                                                                                            |
-| 2:52pm    | Open Source Hardware Design, by David Stanford                                                                                   |
-| 3:04pm    | Creating Mixed Reality Experiences - From Zero to Hero!, by Karthickeyan Narasimhan                                              |
-| 3:16pm    | Making furniture with JavaScript, by Amit Nambiar                                                                                |
-| 3:30pm    | Snack Break                                                                                                                      |
+| 2:21pm    | How I Added Ordinal Plural Support to Mozilla’s Fluent Project by Pre-emptively Fixing the JS Intl Specification, by Eemeli Aro  |
+| 2:35pm    | Break                                                                                                                            |
+| 2:45pm    | Coding Out the Clink, by Ahmed Jalloh                                                                                            |
+| 2:57pm    | Open Source Hardware Design, by David Stanford                                                                                   |
+| 3:09pm    | Creating Mixed Reality Experiences - From Zero to Hero!, by Karthickeyan Narasimhan                                              |
+| 3:21pm    | Making furniture with JavaScript, by Amit Nambiar                                                                                |
+| 3:35pm    | Snack Break                                                                                                                      |
 | 3:55pm    | The Coder's 10 Minute Guide to Design, by Mark Lassoff                                                                           |
 | 4:07pm    | Caption this! The importance of captioning for accessibility, by Imelda March                                                    |
-| 4:19pm    | POURing Accessibility into Your Applications, by Kayla Sween                                                                     |
-| 4:30pm    | The Joy of Interactive Generative Art, by Phil Smith                                                                             |
-| 4:40pm    | Break                                                                             |
+| 4:19pm    | The Joy of Interactive Generative Art, by Phil Smith                                                                             |
+| 4:30pm    | Break                                                                             |
 | 5pm       | Closing Keynote: From adversary to advocate: One engineer’s journey to seeing the bigger picture of roads into tech, by Mark Thompson  |
 | 5:30pm    | Closing Remarks                                                                                                                  |
 {: .schedule }
