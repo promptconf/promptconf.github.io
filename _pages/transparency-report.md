@@ -3,7 +3,7 @@ title: Prompt Conf 2019 Code of Conduct Transparency Report
 permalink: /transparency-report/
 ---
 
-# Code of Conduct Transparency Report
+# 2019 Code of Conduct Transparency Report
 
 The PromptConf Code of Conduct sets standards for how all PromptConf attendees (e.g. organizers, speakers, volunteers, attendees) interact with others during the conference. Critical to enforcing the Code of Conduct, the PromptConf Code of Conduct strategy developed prioritized several key factors including:
 
