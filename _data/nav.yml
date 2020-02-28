@@ -1,13 +1,13 @@
 # - name: Home
 #   link: /
-- name: Register
-  link: https://ti.to/prompt-conf/2019
+# - name: Register
+#   link: https://ti.to/prompt-conf/2020
 # - name: Call for Proposals
 #   link: /proposals/
-- name: Speakers
-  link: /speakers/
-- name: Schedule
-  link: /schedule/
+# - name: Speakers
+#   link: /speakers/
+# - name: Schedule
+#   link: /schedule/
 # - name: Emails
 #   link: /#email
 - name: Sponsors
