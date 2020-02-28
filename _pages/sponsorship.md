@@ -5,7 +5,7 @@ permalink: /sponsorship/
 
 # Sponsorship
 
-PromptConf is a brand new single track polyglot conference taking place on September 28, 2019 at the ActiveCampaign office in downtown Chicago. This year’s theme is the joy of computing! 
+PromptConf is a brand new single track polyglot conference taking place on {{ site.eventStartDate | date: "%B %d, %Y" }} at the ActiveCampaign office in downtown Chicago. This year’s theme is the joy of computing!
 
 As a proud Chicago-focused conference, PromptConf has made two intentional decisions to make the conference as inclusive as possible. First, talks will be only 10 minutes long. Second, conference tickets will be kept at a low, accessible price point. 
 

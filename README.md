@@ -1,4 +1,4 @@
-# PromptConf 2019
+# PromptConf 2020
 
 Prod: [http://promptconf.com/]([http://promptconf.com/)
 Dev: [https://prompt-conf-dev.netlify.com/](https://prompt-conf-dev.netlify.com/)

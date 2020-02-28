@@ -7,7 +7,7 @@
     <div class='conference-info__date-location'>
 
         <p class='conference-info__date-location__details'>
-            Saturday, September 28, 2019<br>
+            {{ site.eventStartDate | date: "%A, %B %-d, %Y" }}<br>
             10AM<br>
             Hosted by ActiveCampaign<br>
             Chicago, IL

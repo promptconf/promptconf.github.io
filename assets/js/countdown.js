@@ -4,7 +4,7 @@ const timerHours = document.querySelector('.countdown__item--hours');
 const timerMinutes = document.querySelector('.countdown__item--minutes');
 const timerSeconds = document.querySelector('.countdown__item--seconds');
 
-const promptConfStart = new Date('September 28, 2019 10:00:00 GMT-05:00');
+const promptConfStart = new Date('September 12, 2020 10:00:00 GMT-05:00');
 
 function timer(milliseconds) {
     clearInterval(countdown)
