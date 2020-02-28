@@ -1,7 +1,12 @@
 <div class='attend__content'>
     <h2>Attend</h2>
     <p>Join about 150 of your peers who are equally excited about tech! All attendees must comply with our <a href={{ site.baseurl }}{{ '/conduct/' }}>Code of Conduct</a>.</p>
-    <p>Registration is <a href='https://ti.to/prompt-conf/2019'>open now!</a></p>
+
+    {% if site.registrationIsOpen %}
+        <p>Registration is <a href={{ site.registrationURL }} target="_blank">open now!</a></p>
+        {% else %}
+        <p>Join the mailing list to stay informed.</p>
+    {% endif %}
 </div>
 
 <div class='attend__email' id="email">

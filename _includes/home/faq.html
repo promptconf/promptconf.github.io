@@ -3,7 +3,12 @@
 <dl class='faq__list'>
     <dt>How do I purchase a ticket? When can I register?</dt>
     <dd>
-    Tickets are <a href='https://ti.to/prompt-conf/2019'>on sale now</a>!
+        {% if site.registrationIsOpen %}
+            Tickets are <a href={{ site.registrationURL }} target="_blank">on sale now</a>!
+        {% else %}
+            <p><a href="#attend">Join our mailing list</a> to stay informed.</p>
+        {% endif %}
+
     </dd>
     <dt>Do I have to be a coder to submit a talk?</dt>
     <dd>
@@ -12,6 +17,6 @@
     </dd>
     <dt>How long will the talks be?</dt>
     <dd>
-        All talks will be 10 minutes in length! This is with the exeption of the keynote presentation(s), which will be 25 minutes each.
+        All talks will be 10 minutes in length! This is with the exception of the keynote presentation(s), which will be 25 minutes each.
     </dd>
 </dl>

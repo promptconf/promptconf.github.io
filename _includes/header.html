@@ -26,11 +26,13 @@
             </div>
         </div>
 
-        <h1>Thank you for joining us for PromptConf</h1>
+        <h1>{{ site.title }}</h1>
         <p>A full day of ten-minute talks on the joy of computing</p>
-        <p class='header__date-loc'><span>September 28, 2019</span> Chicago, IL</p>
+        <p class='header__date-loc'><span>{{ site.eventStartDate | date: "%B %d, %Y" }}</span> Chicago, IL</p>
 
-        <a class='button home--button gtm-cta' href='https://ti.to/prompt-conf/2019'>Register Now</a>
+        {% if site.registrationIsOpen %}
+            <a class='button home--button gtm-cta' href={{ site.registrationURL }} target="_blank">Register Now</a>
+        {% endif %}
     {% endif %}
 
     {% include nav.html %}
